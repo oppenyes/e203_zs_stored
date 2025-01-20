@@ -369,8 +369,8 @@ module e203_subsys_mems(
     .clk           (clk  ),
     .rst_n         (rst_n) 
   );
-
-      // * Here is an example AXI Peripheral
+ 
+      // * Here is an example AXI Peripheral 这里将其变为端口形式的
   wire expl_axi_arvalid;
   wire expl_axi_arready;
   wire [`E203_ADDR_SIZE-1:0] expl_axi_araddr;
@@ -468,6 +468,7 @@ sirv_gnrl_icb2axi # (
     .clk           (clk  ),
     .rst_n         (bus_rst_n) 
   );
+
 
 sirv_expl_axi_slv # (
   .AW   (32),

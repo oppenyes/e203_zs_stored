@@ -2,11 +2,11 @@
 # Vivado v2020.2 (64-bit)
 # SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
 # IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
-# Start of session at: Mon Jan 20 22:41:46 2025
-# Process ID: 29716
-# Current directory: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1
+# Start of session at: Tue Jan 21 00:01:49 2025
+# Process ID: 45400
+# Current directory: C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1
 # Command line: vivado.exe -log mig_7series_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mig_7series_0.tcl
-# Log file: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1/mig_7series_0.vds
-# Journal file: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1\vivado.jou
+# Log file: C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1/mig_7series_0.vds
+# Journal file: C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/mig_7series_0_synth_1\vivado.jou
 #-----------------------------------------------------------
 source mig_7series_0.tcl -notrace

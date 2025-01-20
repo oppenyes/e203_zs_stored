@@ -25,7 +25,7 @@
 
   <SystemClock>No Buffer</SystemClock>
 
-  <ReferenceClock>Use System Clock</ReferenceClock>
+  <ReferenceClock>No Buffer</ReferenceClock>
 
   <SysResetPolarity>ACTIVE LOW</SysResetPolarity>
 
@@ -38,7 +38,7 @@
   <dci_cascade>0</dci_cascade>
 
   <Controller number="0">
-    <MemoryDevice>DDR3_SDRAM/Components/MT41J128M8XX-125</MemoryDevice>
+    <MemoryDevice>DDR3_SDRAM/Components/MT41K128M16XX-15E</MemoryDevice>
     <TimePeriod>2500</TimePeriod>
     <VccAuxIO>1.8V</VccAuxIO>
     <PHYRatio>4:1</PHYRatio>
@@ -56,8 +56,8 @@
     <ECC>Disabled</ECC>
     <Ordering>Strict</Ordering>
     <BankMachineCnt>4</BankMachineCnt>
-    <CustomPart>FALSE</CustomPart>
-    <NewPartName/>
+    <CustomPart>TRUE</CustomPart>
+    <NewPartName>MT41K128M16JT-125K</NewPartName>
     <RowAddress>14</RowAddress>
     <ColAddress>10</ColAddress>
     <BankAddress>3</BankAddress>
@@ -142,7 +142,7 @@
       <Pin Bank="Select Bank" PADName="No connect" name="tg_compare_error"/>
     </System_Control>
     <TimingParameters>
-      <Parameters tcke="5" tfaw="30" tras="35" trcd="13.75" trefi="7.8" trfc="110" trp="13.75" trrd="6" trtp="7.5" twtr="7.5"/>
+      <Parameters tcke="5" tfaw="40.0" tras="35.0" trcd="13.75" trefi="7.8" trfc="160.0" trp="13.75" trrd="7.5" trtp="7.5" twtr="7.5"/>
     </TimingParameters>
     <mrBurstLength name="Burst Length">8 - Fixed</mrBurstLength>
     <mrBurstType name="Read Burst Type and Length">Sequential</mrBurstType>
@@ -164,7 +164,14 @@
     <mr2AutoSelfRefresh name="Auto Self Refresh">Enabled</mr2AutoSelfRefresh>
     <mr2SelfRefreshTempRange name="High Temparature Self Refresh Rate">Normal</mr2SelfRefreshTempRange>
     <mr2RTTWR name="RTT_WR - Dynamic On Die Termination (ODT)">Dynamic ODT off</mr2RTTWR>
-    <PortInterface>NATIVE</PortInterface>
+    <PortInterface>AXI</PortInterface>
+    <AXIParameters>
+      <C0_C_RD_WR_ARB_ALGORITHM>RD_PRI_REG</C0_C_RD_WR_ARB_ALGORITHM>
+      <C0_S_AXI_ADDR_WIDTH>29</C0_S_AXI_ADDR_WIDTH>
+      <C0_S_AXI_DATA_WIDTH>32</C0_S_AXI_DATA_WIDTH>
+      <C0_S_AXI_ID_WIDTH>4</C0_S_AXI_ID_WIDTH>
+      <C0_S_AXI_SUPPORTS_NARROW_BURST>0</C0_S_AXI_SUPPORTS_NARROW_BURST>
+    </AXIParameters>
   </Controller>
 
 
