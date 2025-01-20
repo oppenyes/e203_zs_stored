@@ -1,0 +1,865 @@
+
+*** Running vivado
+    with args -log system.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source system.tcl -notrace
+
+
+
+****** Vivado v2020.2 (64-bit)
+  **** SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+  **** IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+source system.tcl -notrace
+Command: link_design -top system -part xc7a200tfbg484-2
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Device 21-403] Loading part xc7a200tfbg484-2
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.dcp' for cell 'ip_mmcm'
+INFO: [Project 1-454] Reading design checkpoint 'c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys.dcp' for cell 'ip_reset_sys'
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.804 . Memory (MB): peak = 1142.445 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1151 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2020.2
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys_board.xdc] for cell 'ip_reset_sys/U0'
+Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys_board.xdc] for cell 'ip_reset_sys/U0'
+Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys.xdc] for cell 'ip_reset_sys/U0'
+Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys.xdc] for cell 'ip_reset_sys/U0'
+Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm_board.xdc] for cell 'ip_mmcm/inst'
+Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm_board.xdc] for cell 'ip_mmcm/inst'
+Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.xdc] for cell 'ip_mmcm/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.xdc:57]
+get_clocks: Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1762.070 ; gain = 619.625
+Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.xdc] for cell 'ip_mmcm/inst'
+Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]
+Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]
+INFO: [Vivado 12-4777] Setting CLOCK_DEDICATED_ROUTE constraint on the PARENT net instead of the specified net segment (net name: dut_io_pads_jtag_TCK_i_ival). Placer only honors CLOCK_DEDICATED_ROUTE when set on the PARENT net, e.g. net segment directly connected to the driver. To eliminate this message, please update your constraint to specify the PARENT net instead. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc:15]
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]
+Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:1]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports sys_clk]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:1]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-507] No nets matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:2]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:2]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:3]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:3]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:4]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:4]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:5]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:5]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:6]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:6]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:9]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:9]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[1]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:10]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:10]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[2]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:11]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:11]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[3]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:12]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:12]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[4]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:13]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:13]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[5]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[6]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:15]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:15]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[7]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:16]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:16]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[8]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:17]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:17]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[9]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:18]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:18]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[10]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:19]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:19]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[11]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:20]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:20]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[12]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:21]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:21]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[13]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:22]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:22]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[14]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:23]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:23]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[15]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:24]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:24]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[16]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:25]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:25]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[17]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:26]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:26]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[18]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:27]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:27]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[19]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:28]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:28]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[20]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:29]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:29]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[21]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:30]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:30]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[22]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:31]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:31]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[23]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:32]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:32]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_hs'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:33]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:33]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_vs'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:34]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:34]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_de'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:35]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:35]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_bl'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:36]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:36]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:37]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:37]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'lcd_rst'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:38]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:38]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:43]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports cam_pclk]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:43]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+WARNING: [Vivado 12-507] No nets matched 'cam_pclk_IBUF'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:44]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:44]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:45]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:45]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:46]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:46]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_pwdn'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:47]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:47]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:48]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:48]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[1]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:49]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:49]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[2]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:50]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:50]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[3]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:51]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:51]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[4]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:52]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:52]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[5]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:53]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:53]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[6]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:54]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:54]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_data[7]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:55]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:55]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_vsync'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:56]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:56]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_href'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:57]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:57]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_scl'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:58]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:58]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'cam_sda'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:59]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:59]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:71]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:71]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:72]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:72]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 1762.070 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 77 instances were transformed.
+  IOBUF => IOBUF (IBUF, OBUFT): 73 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
+
+12 Infos, 55 Warnings, 55 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:31 . Memory (MB): peak = 1762.070 ; gain = 619.625
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port pmu_paden expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port pmu_padrst expects both input and output buffering but the buffers are incomplete.
+INFO: [Project 1-461] DRC finished with 0 Errors, 2 Warnings
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1762.070 ; gain = 0.000
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 20a358f15
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 1772.980 ; gain = 10.910
+
+Starting Logic Optimization Task
+
+Phase 1 Retarget
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Opt 31-49] Retargeted 0 cell(s).
+Phase 1 Retarget | Checksum: 1602d3450
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-389] Phase Retarget created 2 cells and removed 28 cells
+INFO: [Opt 31-1021] In phase Retarget, 2 netlist objects are constrained preventing optimization. Please run opt_design with -debug_log to get more detail. 
+
+Phase 2 Constant propagation
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Phase 2 Constant propagation | Checksum: 1be4ed797
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-389] Phase Constant propagation created 0 cells and removed 1 cells
+
+Phase 3 Sweep
+Phase 3 Sweep | Checksum: 1bc1ffbb0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-389] Phase Sweep created 0 cells and removed 72 cells
+
+Phase 4 BUFG optimization
+Phase 4 BUFG optimization | Checksum: 1bc1ffbb0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-662] Phase BUFG optimization created 0 cells of which 0 are BUFGs and removed 0 cells.
+
+Phase 5 Shift Register Optimization
+INFO: [Opt 31-1064] SRL Remap converted 0 SRLs to 0 registers and converted 0 registers of register chains to 0 SRLs
+Phase 5 Shift Register Optimization | Checksum: 1bc1ffbb0
+
+Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-389] Phase Shift Register Optimization created 0 cells and removed 0 cells
+
+Phase 6 Post Processing Netlist
+Phase 6 Post Processing Netlist | Checksum: 1bc1ffbb0
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1980.543 ; gain = 0.062
+INFO: [Opt 31-389] Phase Post Processing Netlist created 0 cells and removed 0 cells
+Opt_design Change Summary
+=========================
+
+
+-------------------------------------------------------------------------------------------------------------------------
+|  Phase                        |  #Cells created  |  #Cells Removed  |  #Constrained objects preventing optimizations  |
+-------------------------------------------------------------------------------------------------------------------------
+|  Retarget                     |               2  |              28  |                                              2  |
+|  Constant propagation         |               0  |               1  |                                              0  |
+|  Sweep                        |               0  |              72  |                                              0  |
+|  BUFG optimization            |               0  |               0  |                                              0  |
+|  Shift Register Optimization  |               0  |               0  |                                              0  |
+|  Post Processing Netlist      |               0  |               0  |                                              0  |
+-------------------------------------------------------------------------------------------------------------------------
+
+
+
+Starting Connectivity Check Task
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.077 . Memory (MB): peak = 1980.543 ; gain = 0.000
+Ending Logic Optimization Task | Checksum: 1c72e19f3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 1980.543 ; gain = 0.062
+
+Starting Power Optimization Task
+INFO: [Pwropt 34-132] Skipping clock gating for clocks with a period < 2.00 ns.
+INFO: [Power 33-23] Power model is not available for pullup_TCK
+INFO: [Power 33-23] Power model is not available for pullup_TDI
+INFO: [Power 33-23] Power model is not available for pullup_TMS
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[0]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[1]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[2]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[3]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+INFO: [Pwropt 34-9] Applying IDT optimizations ...
+INFO: [Pwropt 34-10] Applying ODC optimizations ...
+
+
+Starting PowerOpt Patch Enables Task
+INFO: [Pwropt 34-162] WRITE_MODE attribute of 0 BRAM(s) out of a total of 32 has been updated to save power. Run report_power_opt to get a complete listing of the BRAMs updated.
+INFO: [Pwropt 34-201] Structural ODC has moved 0 WE to EN ports
+Number of BRAM Ports augmented: 0 newly gated: 0 Total Ports: 64
+Ending PowerOpt Patch Enables Task | Checksum: 1c72e19f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.311 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Ending Power Optimization Task | Checksum: 1c72e19f3
+
+Time (s): cpu = 00:00:41 ; elapsed = 00:00:35 . Memory (MB): peak = 2196.297 ; gain = 215.754
+
+Starting Final Cleanup Task
+Ending Final Cleanup Task | Checksum: 1c72e19f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Starting Netlist Obfuscation Task
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Ending Netlist Obfuscation Task | Checksum: 1c72e19f3
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+42 Infos, 57 Warnings, 55 Critical Warnings and 0 Errors encountered.
+opt_design completed successfully
+opt_design: Time (s): cpu = 00:00:51 ; elapsed = 00:00:44 . Memory (MB): peak = 2196.297 ; gain = 434.227
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.055 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_opt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file system_drc_opted.rpt -pb system_drc_opted.pb -rpx system_drc_opted.rpx
+Command: report_drc -file system_drc_opted.rpt -pb system_drc_opted.pb -rpx system_drc_opted.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_drc_opted.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:10 ; elapsed = 00:00:09 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Command: place_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+Running DRC as a precondition to command place_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC CHECK-3] Report rule limit reached: REQP-1839 rule limit reached: 20 violations have been found.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_err_dfflr/qout_r_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[12]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[13]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[14]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[15]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[19]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[1]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[20]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[21]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[23]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[25]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[26]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[28]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[31]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[4]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_pc_dfflr/qout_r_reg[7]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ifu_prdt_taken_dfflr/qout_r_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ir_muldiv_b2b_dfflr/qout_r_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ir_pc_vld_dfflr/qout_r_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC REQP-1839] RAMB36 async control check: The RAMB36E1 dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 has an input control pin dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0/ADDRARDADDR[14] (net: dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/ADDRARDADDR[13]) which is driven by a register (dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_cpu/u_e203_core/u_e203_ifu/u_e203_ifu_ifetch/ir_valid_dfflr/qout_r_reg[0]) that has an active asychronous set or reset. This may cause corruption of the memory contents and/or read values when the set/reset is asserted and is not analyzed by the default static timing analysis. It is suggested to eliminate the use of a set/reset to registers driving this RAMB pin or else use a synchronous reset in which the assertion of the reset is timed by default.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port pmu_paden expects both input and output buffering but the buffers are incomplete.
+WARNING: [DRC RPBF-3] IO port buffering is incomplete: Device port pmu_padrst expects both input and output buffering but the buffers are incomplete.
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 23 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+Starting Placer Task
+INFO: [Place 30-611] Multithreading enabled for place_design using a maximum of 2 CPUs
+
+Phase 1 Placer Initialization
+
+Phase 1.1 Placer Initialization Netlist Sorting
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 1.1 Placer Initialization Netlist Sorting | Checksum: 1be52964a
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.035 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.015 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device
+WARNING: [Place 30-574] Poor placement for routing between an IO pin and BUFG. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	IOBUF_jtag_TCK/IBUF (IBUF.O) is locked to IOB_X0Y106
+	dut_io_pads_jtag_TCK_i_ival_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y2
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+Phase 1.2 IO Placement/ Clock Placement/ Build Placer Device | Checksum: ce7232e3
+
+Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 1.3 Build Placer Netlist Model
+Phase 1.3 Build Placer Netlist Model | Checksum: 13d4fdf4d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 1.4 Constrain Clocks/Macros
+Phase 1.4 Constrain Clocks/Macros | Checksum: 13d4fdf4d
+
+Time (s): cpu = 00:00:11 ; elapsed = 00:00:09 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 1 Placer Initialization | Checksum: 13d4fdf4d
+
+Time (s): cpu = 00:00:12 ; elapsed = 00:00:09 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 2 Global Placement
+
+Phase 2.1 Floorplanning
+Phase 2.1 Floorplanning | Checksum: 1b81f6c52
+
+Time (s): cpu = 00:00:14 ; elapsed = 00:00:10 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 2.2 Update Timing before SLR Path Opt
+Phase 2.2 Update Timing before SLR Path Opt | Checksum: 1cb36a63f
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:12 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 2.3 Global Placement Core
+
+Phase 2.3.1 Physical Synthesis In Placer
+INFO: [Physopt 32-1035] Found 0 LUTNM shape to break, 532 LUT instances to create LUTNM shape
+INFO: [Physopt 32-1044] Break lutnm for timing: one critical 0, two critical 0, total 0, new lutff created 0
+INFO: [Physopt 32-775] End 1 Pass. Optimized 199 nets or cells. Created 0 new cell, deleted 199 existing cells and moved 0 existing cell
+INFO: [Physopt 32-65] No nets found for high-fanout optimization.
+INFO: [Physopt 32-232] Optimized 0 net. Created 0 new instance.
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+INFO: [Physopt 32-670] No setup violation found.  DSP Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register to Pipeline Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  Shift Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  BRAM Register Optimization was not performed.
+INFO: [Physopt 32-670] No setup violation found.  URAM Register Optimization was not performed.
+INFO: [Physopt 32-949] No candidate nets found for dynamic/static region interface net replication
+INFO: [Physopt 32-775] End 1 Pass. Optimized 0 net or cell. Created 0 new cell, deleted 0 existing cell and moved 0 existing cell
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Summary of Physical Synthesis Optimizations
+============================================
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  Optimization                                     |  Added Cells  |  Removed Cells  |  Optimized Cells/Nets  |  Dont Touch  |  Iterations  |  Elapsed   |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+|  LUT Combining                                    |            0  |            199  |                   199  |           0  |           1  |  00:00:02  |
+|  Very High Fanout                                 |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  DSP Register                                     |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register to Pipeline                       |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Shift Register                                   |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  BRAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  URAM Register                                    |            0  |              0  |                     0  |           0  |           0  |  00:00:00  |
+|  Dynamic/Static Region Interface Net Replication  |            0  |              0  |                     0  |           0  |           1  |  00:00:00  |
+|  Total                                            |            0  |            199  |                   199  |           0  |           3  |  00:00:02  |
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+Phase 2.3.1 Physical Synthesis In Placer | Checksum: ec96bfba
+
+Time (s): cpu = 00:00:57 ; elapsed = 00:00:39 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 2.3 Global Placement Core | Checksum: b322bddd
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 2 Global Placement | Checksum: b322bddd
+
+Time (s): cpu = 00:00:59 ; elapsed = 00:00:40 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3 Detail Placement
+
+Phase 3.1 Commit Multi Column Macros
+Phase 3.1 Commit Multi Column Macros | Checksum: 115f652f0
+
+Time (s): cpu = 00:01:02 ; elapsed = 00:00:43 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.2 Commit Most Macros & LUTRAMs
+Phase 3.2 Commit Most Macros & LUTRAMs | Checksum: 11dd5f22b
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:46 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.3 Area Swap Optimization
+Phase 3.3 Area Swap Optimization | Checksum: 1e1d51e4c
+
+Time (s): cpu = 00:01:07 ; elapsed = 00:00:47 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.4 Pipeline Register Optimization
+Phase 3.4 Pipeline Register Optimization | Checksum: 1f436a604
+
+Time (s): cpu = 00:01:08 ; elapsed = 00:00:47 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.5 Small Shape Detail Placement
+Phase 3.5 Small Shape Detail Placement | Checksum: c89bd463
+
+Time (s): cpu = 00:01:19 ; elapsed = 00:00:59 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.6 Re-assign LUT pins
+Phase 3.6 Re-assign LUT pins | Checksum: 809478db
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:01 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 3.7 Pipeline Register Optimization
+Phase 3.7 Pipeline Register Optimization | Checksum: 48998966
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:01 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 3 Detail Placement | Checksum: 48998966
+
+Time (s): cpu = 00:01:21 ; elapsed = 00:01:01 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 4 Post Placement Optimization and Clean-Up
+
+Phase 4.1 Post Commit Optimization
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+
+Phase 4.1.1 Post Placement Optimization
+Post Placement Optimization Initialization | Checksum: 136d1a489
+
+Phase 4.1.1.1 BUFG Insertion
+
+Starting Physical Synthesis Task
+
+Phase 1 Physical Synthesis Initialization
+INFO: [Physopt 32-721] Multithreading enabled for phys_opt_design using a maximum of 2 CPUs
+INFO: [Physopt 32-619] Estimated Timing Summary | WNS=17.803 | TNS=0.000 |
+Phase 1 Physical Synthesis Initialization | Checksum: 10500d689
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:01 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Place 46-33] Processed net dut/u_e203_subsys_top/u_e203_subsys_main/u_main_ResetCatchAndSync_2_1/reset_n_catch_reg/reg_0/AS[0], BUFG insertion was skipped due to placement/routing conflicts.
+INFO: [Place 46-56] BUFG insertion identified 1 candidate nets. Inserted BUFG: 0, Replicated BUFG Driver: 0, Skipped due to Placement/Routing Conflicts: 1, Skipped due to Timing Degradation: 0, Skipped due to Illegal Netlist: 0.
+Ending Physical Synthesis Task | Checksum: 11a7cf121
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 4.1.1.1 BUFG Insertion | Checksum: 136d1a489
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:10 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Place 30-746] Post Placement Timing Summary WNS=17.803. For the most accurate timing information please run report_timing.
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:10 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 4.1 Post Commit Optimization | Checksum: 1ff35f31c
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:10 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 4.2 Post Placement Cleanup
+Phase 4.2 Post Placement Cleanup | Checksum: 1ff35f31c
+
+Time (s): cpu = 00:01:33 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 4.3 Placer Reporting
+
+Phase 4.3.1 Print Estimated Congestion
+INFO: [Place 30-612] Post-Placement Estimated Congestion 
+ ____________________________________________________
+|           | Global Congestion | Short Congestion  |
+| Direction | Region Size       | Region Size       |
+|___________|___________________|___________________|
+|      North|                1x1|                2x2|
+|___________|___________________|___________________|
+|      South|                1x1|                1x1|
+|___________|___________________|___________________|
+|       East|                1x1|                4x4|
+|___________|___________________|___________________|
+|       West|                1x1|                1x1|
+|___________|___________________|___________________|
+
+Phase 4.3.1 Print Estimated Congestion | Checksum: 1ff35f31c
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 4.3 Placer Reporting | Checksum: 1ff35f31c
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Phase 4.4 Final Placement Cleanup
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 2196.297 ; gain = 0.000
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Phase 4 Post Placement Optimization and Clean-Up | Checksum: 1dfee7578
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Ending Placer Task | Checksum: f259efd4
+
+Time (s): cpu = 00:01:34 ; elapsed = 00:01:11 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Common 17-83] Releasing license: Implementation
+78 Infos, 81 Warnings, 55 Critical Warnings and 0 Errors encountered.
+place_design completed successfully
+place_design: Time (s): cpu = 00:01:37 ; elapsed = 00:01:14 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:03 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_placed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_io -file system_io_placed.rpt
+report_io: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.097 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_utilization -file system_utilization_placed.rpt -pb system_utilization_placed.pb
+INFO: [runtcl-4] Executing : report_control_sets -verbose -file system_control_sets_placed.rpt
+report_control_sets: Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.102 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Command: phys_opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Vivado_Tcl 4-383] Design worst setup slack (WNS) is greater than or equal to 0.000 ns. Skipping all physical synthesis optimizations.
+INFO: [Vivado_Tcl 4-232] No setup violation found. The netlist was not modified.
+INFO: [Common 17-83] Releasing license: Implementation
+87 Infos, 81 Warnings, 55 Critical Warnings and 0 Errors encountered.
+phys_opt_design completed successfully
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:07 ; elapsed = 00:00:03 . Memory (MB): peak = 2196.297 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_physopt.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:11 ; elapsed = 00:00:07 . Memory (MB): peak = 2196.297 ; gain = 0.000
+Command: route_design
+Attempting to get a license for feature 'Implementation' and/or device 'xc7a200t'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xc7a200t'
+Running DRC as a precondition to command route_design
+INFO: [DRC 23-27] Running DRC with 2 threads
+WARNING: [DRC PLCK-12] Clock Placer Checks: Poor placement for routing between an IO pin and BUFG. 
+Resolution: Poor placement of an IO pin and a BUFG has resulted in the router using a non-dedicated path between the two.  There are several things that could trigger this DRC, each of which can cause unpredictable clock insertion delays that result in poor timing.  This DRC could be caused by any of the following: (a) a clock port was placed on a pin that is not a CCIO-pin (b)the BUFG has not been placed in the same half of the device or SLR as the CCIO-pin (c) a single ended clock has been placed on the N-Side of a differential pair CCIO-pin.
+ This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint is set to FALSE allowing your design to continue. The use of this override is highly discouraged as it may lead to very poor timing results. It is recommended that this error condition be corrected in the design.
+
+	IOBUF_jtag_TCK/IBUF (IBUF.O) is locked to IOB_X0Y106
+	dut_io_pads_jtag_TCK_i_ival_BUFG_inst (BUFG.I) is provisionally placed by clockplacer on BUFGCTRL_X0Y2
+INFO: [Vivado_Tcl 4-198] DRC finished with 0 Errors, 1 Warnings
+INFO: [Vivado_Tcl 4-199] Please refer to the DRC report (report_drc) for more information.
+
+
+Starting Routing Task
+INFO: [Route 35-254] Multithreading enabled for route_design using a maximum of 2 CPUs
+Checksum: PlaceDB: 3aac51a9 ConstDB: 0 ShapeSum: b7ad9e2b RouteDB: 0
+
+Phase 1 Build RT Design
+Phase 1 Build RT Design | Checksum: 689edcb6
+
+Time (s): cpu = 00:01:10 ; elapsed = 00:01:01 . Memory (MB): peak = 2345.605 ; gain = 149.309
+Post Restoration Checksum: NetGraph: c0f90ec NumContArr: 5c8f4bca Constraints: 0 Timing: 0
+
+Phase 2 Router Initialization
+
+Phase 2.1 Create Timer
+Phase 2.1 Create Timer | Checksum: 689edcb6
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:01 . Memory (MB): peak = 2345.605 ; gain = 149.309
+
+Phase 2.2 Fix Topology Constraints
+Phase 2.2 Fix Topology Constraints | Checksum: 689edcb6
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:01 . Memory (MB): peak = 2351.969 ; gain = 155.672
+
+Phase 2.3 Pre Route Cleanup
+Phase 2.3 Pre Route Cleanup | Checksum: 689edcb6
+
+Time (s): cpu = 00:01:11 ; elapsed = 00:01:01 . Memory (MB): peak = 2351.969 ; gain = 155.672
+ Number of Nodes with overlaps = 0
+
+Phase 2.4 Update Timing
+Phase 2.4 Update Timing | Checksum: 10c9e7df5
+
+Time (s): cpu = 00:01:24 ; elapsed = 00:01:11 . Memory (MB): peak = 2417.773 ; gain = 221.477
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=17.983 | TNS=0.000  | WHS=-2.827 | THS=-303.817|
+
+Phase 2 Router Initialization | Checksum: 10e1de54f
+
+Time (s): cpu = 00:01:31 ; elapsed = 00:01:16 . Memory (MB): peak = 2417.773 ; gain = 221.477
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 0.0154267 %
+  Global Horizontal Routing Utilization  = 0.0114673 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 21360
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 21311
+  Number of Partially Routed Nets     = 49
+  Number of Node Overlaps             = 102
+
+
+Phase 3 Initial Routing
+
+Phase 3.1 Global Routing
+Phase 3.1 Global Routing | Checksum: 10e1de54f
+
+Time (s): cpu = 00:01:32 ; elapsed = 00:01:17 . Memory (MB): peak = 2421.418 ; gain = 225.121
+Phase 3 Initial Routing | Checksum: 1269a56fb
+
+Time (s): cpu = 00:01:48 ; elapsed = 00:01:26 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 4 Rip-up And Reroute
+
+Phase 4.1 Global Iteration 0
+ Number of Nodes with overlaps = 3040
+ Number of Nodes with overlaps = 174
+ Number of Nodes with overlaps = 15
+ Number of Nodes with overlaps = 2
+ Number of Nodes with overlaps = 0
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=15.473 | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 4.1 Global Iteration 0 | Checksum: 1333caa6a
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:47 . Memory (MB): peak = 2433.387 ; gain = 237.090
+Phase 4 Rip-up And Reroute | Checksum: 1333caa6a
+
+Time (s): cpu = 00:02:13 ; elapsed = 00:01:47 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 5 Delay and Skew Optimization
+
+Phase 5.1 Delay CleanUp
+
+Phase 5.1.1 Update Timing
+Phase 5.1.1 Update Timing | Checksum: 14213107e
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:49 . Memory (MB): peak = 2433.387 ; gain = 237.090
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=15.473 | TNS=0.000  | WHS=N/A    | THS=N/A    |
+
+Phase 5.1 Delay CleanUp | Checksum: 14213107e
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:49 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 5.2 Clock Skew Optimization
+Phase 5.2 Clock Skew Optimization | Checksum: 14213107e
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:49 . Memory (MB): peak = 2433.387 ; gain = 237.090
+Phase 5 Delay and Skew Optimization | Checksum: 14213107e
+
+Time (s): cpu = 00:02:16 ; elapsed = 00:01:49 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 6 Post Hold Fix
+
+Phase 6.1 Hold Fix Iter
+
+Phase 6.1.1 Update Timing
+Phase 6.1.1 Update Timing | Checksum: 2129389f3
+
+Time (s): cpu = 00:02:19 ; elapsed = 00:01:52 . Memory (MB): peak = 2433.387 ; gain = 237.090
+INFO: [Route 35-416] Intermediate Timing Summary | WNS=15.473 | TNS=0.000  | WHS=-1.281 | THS=-37.705|
+
+Phase 6.1 Hold Fix Iter | Checksum: e927d624
+
+Time (s): cpu = 00:02:20 ; elapsed = 00:01:53 . Memory (MB): peak = 2433.387 ; gain = 237.090
+Phase 6 Post Hold Fix | Checksum: 1ba0874b0
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:53 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 7 Route finalize
+
+Router Utilization Summary
+  Global Vertical Routing Utilization    = 2.52734 %
+  Global Horizontal Routing Utilization  = 3.03325 %
+  Routable Net Status*
+  *Does not include unroutable nets such as driverless and loadless.
+  Run report_route_status for detailed report.
+  Number of Failed Nets               = 0
+    (Failed Nets is the sum of unrouted and partially routed nets)
+  Number of Unrouted Nets             = 0
+  Number of Partially Routed Nets     = 0
+  Number of Node Overlaps             = 0
+
+Phase 7 Route finalize | Checksum: fe889257
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:53 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 8 Verifying routed nets
+
+ Verification completed successfully
+Phase 8 Verifying routed nets | Checksum: fe889257
+
+Time (s): cpu = 00:02:21 ; elapsed = 00:01:53 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 9 Depositing Routes
+Phase 9 Depositing Routes | Checksum: e95493dc
+
+Time (s): cpu = 00:02:24 ; elapsed = 00:01:57 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Phase 10 Post Router Timing
+
+Phase 10.1 Update Timing
+Phase 10.1 Update Timing | Checksum: 15e2da07b
+
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:59 . Memory (MB): peak = 2433.387 ; gain = 237.090
+INFO: [Route 35-57] Estimated Timing Summary | WNS=10.912 | TNS=0.000  | WHS=0.055  | THS=0.000  |
+
+INFO: [Route 35-327] The final timing numbers are based on the router estimated timing analysis. For a complete and accurate timing signoff, please run report_timing_summary.
+Phase 10 Post Router Timing | Checksum: 15e2da07b
+
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:59 . Memory (MB): peak = 2433.387 ; gain = 237.090
+INFO: [Route 35-16] Router Completed Successfully
+
+Time (s): cpu = 00:02:27 ; elapsed = 00:01:59 . Memory (MB): peak = 2433.387 ; gain = 237.090
+
+Routing Is Done.
+INFO: [Common 17-83] Releasing license: Implementation
+102 Infos, 82 Warnings, 55 Critical Warnings and 0 Errors encountered.
+route_design completed successfully
+route_design: Time (s): cpu = 00:02:38 ; elapsed = 00:02:06 . Memory (MB): peak = 2433.387 ; gain = 237.090
+INFO: [Timing 38-480] Writing timing data to binary archive.
+Writing placer database...
+Writing XDEF routing.
+Writing XDEF routing logical nets.
+Writing XDEF routing special nets.
+Write XDEF Complete: Time (s): cpu = 00:00:08 ; elapsed = 00:00:04 . Memory (MB): peak = 2433.387 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_routed.dcp' has been generated.
+write_checkpoint: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2433.387 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_drc -file system_drc_routed.rpt -pb system_drc_routed.pb -rpx system_drc_routed.rpx
+Command: report_drc -file system_drc_routed.rpt -pb system_drc_routed.pb -rpx system_drc_routed.rpx
+INFO: [IP_Flow 19-1839] IP Catalog is up to date.
+INFO: [DRC 23-27] Running DRC with 2 threads
+INFO: [Coretcl 2-168] The results of DRC are in file C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_drc_routed.rpt.
+report_drc completed successfully
+report_drc: Time (s): cpu = 00:00:19 ; elapsed = 00:00:13 . Memory (MB): peak = 2469.348 ; gain = 35.961
+INFO: [runtcl-4] Executing : report_methodology -file system_methodology_drc_routed.rpt -pb system_methodology_drc_routed.pb -rpx system_methodology_drc_routed.rpx
+Command: report_methodology -file system_methodology_drc_routed.rpt -pb system_methodology_drc_routed.pb -rpx system_methodology_drc_routed.rpx
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+INFO: [DRC 23-133] Running Methodology with 2 threads
+INFO: [Coretcl 2-1520] The results of Report Methodology are in file C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/impl_1/system_methodology_drc_routed.rpt.
+report_methodology completed successfully
+report_methodology: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 2469.348 ; gain = 0.000
+INFO: [runtcl-4] Executing : report_power -file system_power_routed.rpt -pb system_power_summary_routed.pb -rpx system_power_routed.rpx
+Command: report_power -file system_power_routed.rpt -pb system_power_summary_routed.pb -rpx system_power_routed.rpx
+INFO: [Power 33-23] Power model is not available for pullup_TCK
+INFO: [Power 33-23] Power model is not available for pullup_TDI
+INFO: [Power 33-23] Power model is not available for pullup_TMS
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[0]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[1]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[2]
+INFO: [Power 33-23] Power model is not available for qspi0_pullup[3]
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Running Vector-less Activity Propagation...
+
+Finished Running Vector-less Activity Propagation
+121 Infos, 82 Warnings, 55 Critical Warnings and 0 Errors encountered.
+report_power completed successfully
+report_power: Time (s): cpu = 00:00:17 ; elapsed = 00:00:11 . Memory (MB): peak = 2470.965 ; gain = 1.617
+INFO: [runtcl-4] Executing : report_route_status -file system_route_status.rpt -pb system_route_status.pb
+INFO: [runtcl-4] Executing : report_timing_summary -max_paths 10 -file system_timing_summary_routed.rpt -pb system_timing_summary_routed.pb -rpx system_timing_summary_routed.rpx -warn_on_violation 
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [runtcl-4] Executing : report_incremental_reuse -file system_incremental_reuse_routed.rpt
+INFO: [Vivado_Tcl 4-1062] Incremental flow is disabled. No incremental reuse Info to report.
+INFO: [runtcl-4] Executing : report_clock_utilization -file system_clock_utilization_routed.rpt
+INFO: [runtcl-4] Executing : report_bus_skew -warn_on_violation -file system_bus_skew_routed.rpt -pb system_bus_skew_routed.pb -rpx system_bus_skew_routed.rpx
+INFO: [Timing 38-91] UpdateTimingParams: Speed grade: -2, Delay Type: min_max.
+INFO: [Timing 38-191] Multithreading enabled for timing update using a maximum of 2 CPUs
+INFO: [Common 17-206] Exiting Vivado at Sun Jan 19 23:36:02 2025...

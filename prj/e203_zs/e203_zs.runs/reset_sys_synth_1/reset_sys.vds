@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Jan 20 22:41:03 2025
+# Process ID: 36476
+# Current directory: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/reset_sys_synth_1
+# Command line: vivado.exe -log reset_sys.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source reset_sys.tcl
+# Log file: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/reset_sys_synth_1/reset_sys.vds
+# Journal file: C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/reset_sys_synth_1\vivado.jou
+#-----------------------------------------------------------
+source reset_sys.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP reset_sys, cache-ID = 2036c2d25d12ec59.
+INFO: [Common 17-206] Exiting Vivado at Mon Jan 20 22:41:09 2025...
