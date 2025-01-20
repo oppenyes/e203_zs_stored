@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/system.tcl"
+  variable script "C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/system.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,163 +77,163 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.cache/wt [current_project]
-set_property parent.project_path C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.xpr [current_project]
+set_property webtalk.parent_dir C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.cache/wt [current_project]
+set_property parent.project_path C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.xpr [current_project]
 set_property XPM_LIBRARIES XPM_CDC [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.cache/ip [current_project]
+set_property ip_output_repo c:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
 read_verilog {
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/i2c_master_defines.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_defines.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/config.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/i2c_master_defines.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_defines.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/config.v
 }
-set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/i2c_master_defines.v]
-set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_defines.v]
-set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/config.v]
+set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/i2c_master_defines.v]
+set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_defines.v]
+set_property file_type "Verilog Header" [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/config.v]
 read_verilog -library xil_defaultlib {
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/adv_timer_apb_if.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/apb_adv_timer.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_gpio/apb_gpio.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/apb_i2c.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/apb_spi_master.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/comparator.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_biu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clk_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clkgate.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_core.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_cpu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_cpu_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_dtcm_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_dtcm_ram.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_bjp.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_csrctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_dpath.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_lsuagu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_muldiv.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_rglr.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_branchslv.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_commit.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_csr.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_decode.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_disp.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_excp.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_longpwbck.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_nice.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_oitf.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_regfile.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_wbck.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ifetch.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ift2icb.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_litebpu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_minidec.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_irq_sync.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_itcm_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_itcm_ram.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_reset_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/soc/e203_soc_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_srams.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_clint.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_gfcm.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_main.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_mems.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_nice_core.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_perips.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_plic.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pll.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pllclkdiv.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/i2c_master_bit_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/i2c_master_byte_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/input_stage.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/io_generic_fifo.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/prescaler.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_1cyc_sram_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetReg.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec_1.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec_129.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec_36.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_DeglitchShiftRegister.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_LevelGateway.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_ResetCatchAndSync.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_ResetCatchAndSync_2.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_aon.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_aon_lclkgen_regs.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_aon_porrst.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_aon_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_aon_wrapper.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_clint.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_clint_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_debug_csr.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_debug_module.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_debug_ram.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_debug_rom.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_expl_axi_slv.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_flash_qspi.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_flash_qspi_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_ram.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_hclkgen_regs.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/fab/sirv_icb1to16_bus.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/fab/sirv_icb1to2_bus.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/fab/sirv_icb1to8_bus.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_jtag_dtm.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_jtaggpioport.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/mems/sirv_mrom.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/mems/sirv_mrom_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_plic_man.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_plic_top.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_pmu.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_pmu_core.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_qspi_arbiter.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_qspi_fifo.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_qspi_media.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_qspi_physical.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_queue.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_queue_1.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_repeater_6.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_rtc.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sim_ram.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_spi_flashmap.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sram_icb_ctrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_tl_repeater_5.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_tlfragmenter_qspi_1.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_tlwidthwidget_qspi.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_wdog.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_apb_if.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_clkgen.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_controller.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_fifo.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_rx.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_tx.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/timer_cntrl.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/timer_module.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/uart_interrupt.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/uart_rx.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/uart_tx.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/up_down_counter.v
-  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/system.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/adv_timer_apb_if.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/apb_adv_timer.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_gpio/apb_gpio.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/apb_i2c.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/apb_spi_master.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/comparator.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_biu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clk_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clkgate.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_core.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_cpu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_cpu_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_dtcm_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_dtcm_ram.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_bjp.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_csrctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_dpath.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_lsuagu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_muldiv.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_rglr.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_branchslv.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_commit.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_csr.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_decode.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_disp.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_excp.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_longpwbck.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_nice.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_oitf.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_regfile.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_wbck.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ifetch.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ift2icb.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_litebpu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_minidec.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_irq_sync.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_itcm_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_itcm_ram.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_reset_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/soc/e203_soc_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_srams.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_clint.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_gfcm.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_main.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_nice_core.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_perips.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_plic.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pll.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pllclkdiv.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/i2c_master_bit_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/i2c_master_byte_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/input_stage.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/io_generic_fifo.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/prescaler.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_1cyc_sram_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetReg.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec_1.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec_129.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec_36.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_DeglitchShiftRegister.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_LevelGateway.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_ResetCatchAndSync.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_ResetCatchAndSync_2.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_aon.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_aon_lclkgen_regs.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_aon_porrst.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_aon_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_aon_wrapper.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_clint.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_clint_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_debug_csr.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_debug_module.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_debug_ram.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_debug_rom.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_expl_axi_slv.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_flash_qspi.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_flash_qspi_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_ram.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_hclkgen_regs.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/fab/sirv_icb1to16_bus.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/fab/sirv_icb1to2_bus.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/fab/sirv_icb1to8_bus.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_jtag_dtm.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_jtaggpioport.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/mems/sirv_mrom.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/mems/sirv_mrom_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_plic_man.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_plic_top.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_pmu.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_pmu_core.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_qspi_arbiter.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_qspi_fifo.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_qspi_media.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_qspi_physical.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_queue.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_queue_1.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_repeater_6.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_rtc.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sim_ram.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_spi_flashmap.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sram_icb_ctrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_tl_repeater_5.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_tlfragmenter_qspi_1.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_tlwidthwidget_qspi.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_wdog.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_apb_if.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_clkgen.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_controller.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_fifo.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_rx.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_tx.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/timer_cntrl.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/timer_module.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/uart_interrupt.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/uart_rx.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/uart_tx.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/up_down_counter.v
+  C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v
 }
-read_ip -quiet C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/ip/reset_sys/reset_sys.xci
+read_ip -quiet C:/Users/Zhangshi/Desktop/my_git/e203_zs/ip/reset_sys/reset_sys.xci
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys_ooc.xdc]
 
-read_ip -quiet C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/ip/mmcm/mmcm.xci
+read_ip -quiet C:/Users/Zhangshi/Desktop/my_git/e203_zs/ip/mmcm/mmcm.xci
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm_board.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm.xdc]
 set_property used_in_implementation false [get_files -all c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm_ooc.xdc]
@@ -247,14 +247,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc
-set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]
+read_xdc C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc
+set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc]
 
-read_xdc C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc
-set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]
+read_xdc C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc
+set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc]
 
-read_xdc C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc
-set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc]
+read_xdc C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc
+set_property used_in_implementation false [get_files C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]

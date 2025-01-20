@@ -17,20 +17,20 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200
 INFO: [Device 21-403] Loading part xc7a200tfbg484-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 18996
-WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v:36]
-WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v:38]
-WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v:39]
+INFO: [Synth 8-7075] Helper process launched with PID 43020
+WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:36]
+WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:38]
+WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:39]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1186.145 ; gain = 43.723
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 1185.836 ; gain = 43.816
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'system' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/system.v:3]
-INFO: [Synth 8-6157] synthesizing module 'mmcm' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18792-Lab/realtime/mmcm_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mmcm' (1#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18792-Lab/realtime/mmcm_stub.v:5]
-WARNING: [Synth 8-7071] port 'clk_out1' of module 'mmcm' is unconnected for instance 'ip_mmcm' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/system.v:99]
-WARNING: [Synth 8-7023] instance 'ip_mmcm' of module 'mmcm' has 5 connections declared, but only 4 given [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/system.v:99]
-INFO: [Synth 8-6157] synthesizing module 'reset_sys' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18792-Lab/realtime/reset_sys_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'reset_sys' (2#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18792-Lab/realtime/reset_sys_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'system' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-17788-Lab/realtime/mmcm_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mmcm' (1#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-17788-Lab/realtime/mmcm_stub.v:5]
+WARNING: [Synth 8-7071] port 'clk_out1' of module 'mmcm' is unconnected for instance 'ip_mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:98]
+WARNING: [Synth 8-7023] instance 'ip_mmcm' of module 'mmcm' has 5 connections declared, but only 4 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:98]
+INFO: [Synth 8-6157] synthesizing module 'reset_sys' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-17788-Lab/realtime/reset_sys_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reset_sys' (2#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-17788-Lab/realtime/reset_sys_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'PULLUP' [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:69810]
 INFO: [Synth 8-6155] done synthesizing module 'PULLUP' (3#1) [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:69810]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
@@ -45,55 +45,55 @@ INFO: [Synth 8-6157] synthesizing module 'IOBUF__parameterized0' [E:/Xilinx/Viva
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
 INFO: [Synth 8-6155] done synthesizing module 'IOBUF__parameterized0' (4#1) [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
-INFO: [Synth 8-6157] synthesizing module 'e203_soc_top' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/soc/e203_soc_top.v:19]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_top' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_top.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_main' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_main.v:32]
-INFO: [Synth 8-6157] synthesizing module 'sirv_ResetCatchAndSync_2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_ResetCatchAndSync_2.v:19]
-INFO: [Synth 8-6157] synthesizing module 'sirv_AsyncResetRegVec_129' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec_129.v:19]
-INFO: [Synth 8-6157] synthesizing module 'sirv_AsyncResetReg' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetReg.v:19]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_AsyncResetReg' (5#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetReg.v:19]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_AsyncResetRegVec_129' (6#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_AsyncResetRegVec_129.v:19]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_ResetCatchAndSync_2' (7#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/sirv_ResetCatchAndSync_2.v:19]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_hclkgen' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_pll' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pll.v:31]
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_pll' (8#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pll.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_hclkgen_rstsync' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_soc_top' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/soc/e203_soc_top.v:19]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_top' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_top.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_main' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_main.v:32]
+INFO: [Synth 8-6157] synthesizing module 'sirv_ResetCatchAndSync_2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_ResetCatchAndSync_2.v:19]
+INFO: [Synth 8-6157] synthesizing module 'sirv_AsyncResetRegVec_129' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec_129.v:19]
+INFO: [Synth 8-6157] synthesizing module 'sirv_AsyncResetReg' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetReg.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_AsyncResetReg' (5#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetReg.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_AsyncResetRegVec_129' (6#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_AsyncResetRegVec_129.v:19]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_ResetCatchAndSync_2' (7#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/sirv_ResetCatchAndSync_2.v:19]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_hclkgen' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_pll' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pll.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_pll' (8#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pll.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_hclkgen_rstsync' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v:29]
 	Parameter RST_SYNC_LEVEL bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_hclkgen_rstsync' (9#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_pllclkdiv' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pllclkdiv.v:31]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_hclkgen_rstsync' (9#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen_rstsync.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_pllclkdiv' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pllclkdiv.v:31]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr' (10#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr' (10#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized0' (10#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'e203_clkgate' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clkgate.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_clkgate' (11#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clkgate.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_pllclkdiv' (12#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_pllclkdiv.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_gfcm' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_gfcm.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized0' (10#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'e203_clkgate' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clkgate.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_clkgate' (11#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clkgate.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_pllclkdiv' (12#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_pllclkdiv.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_gfcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_gfcm.v:31]
 	Parameter SYNC_LEVEL bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_gfcm' (13#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_gfcm.v:31]
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_hclkgen' (14#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_hclkgen.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_cpu_top' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_cpu_top.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_cpu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_cpu.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_gfcm' (13#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_gfcm.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_hclkgen' (14#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_hclkgen.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_cpu_top' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_cpu_top.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_cpu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_cpu.v:30]
 	Parameter MASTER bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'e203_reset_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_reset_ctrl.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_reset_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_reset_ctrl.v:29]
 	Parameter MASTER bound to: 1 - type: integer 
 	Parameter RST_SYNC_LEVEL bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'e203_reset_ctrl' (15#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_reset_ctrl.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_clk_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clk_ctrl.v:30]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffr' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:209]
+INFO: [Synth 8-6155] done synthesizing module 'e203_reset_ctrl' (15#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_reset_ctrl.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_clk_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clk_ctrl.v:30]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffr' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:209]
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffr' (16#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:209]
-INFO: [Synth 8-6155] done synthesizing module 'e203_clk_ctrl' (17#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_clk_ctrl.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_irq_sync' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_irq_sync.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffr' (16#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:209]
+INFO: [Synth 8-6155] done synthesizing module 'e203_clk_ctrl' (17#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_clk_ctrl.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_irq_sync' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_irq_sync.v:29]
 	Parameter MASTER bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_sync' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:99]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_sync' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:99]
 	Parameter DP bound to: 2 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_sync' (18#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:99]
-INFO: [Synth 8-6155] done synthesizing module 'e203_irq_sync' (19#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_irq_sync.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_subsys_nice_core' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_nice_core.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_sync' (18#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:99]
+INFO: [Synth 8-6155] done synthesizing module 'e203_irq_sync' (19#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_irq_sync.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_subsys_nice_core' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_nice_core.v:28]
 	Parameter ROWBUF_DP bound to: 4 - type: integer 
 	Parameter ROWBUF_IDX_W bound to: 2 - type: integer 
 	Parameter ROW_IDX_W bound to: 2 - type: integer 
@@ -104,98 +104,98 @@ INFO: [Synth 8-6157] synthesizing module 'e203_subsys_nice_core' [C:/Users/Zhang
 	Parameter LBUF bound to: 2'b01 
 	Parameter SBUF bound to: 2'b10 
 	Parameter ROWSUM bound to: 2'b11 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 32 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized1' (19#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized1' (19#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized2' (19#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_nice_core' (20#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/subsys/e203_subsys_nice_core.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_core' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_core.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_ifu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_ifu_ifetch' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ifetch.v:29]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffrs' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:177]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized2' (19#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'e203_subsys_nice_core' (20#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_nice_core.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_core' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_core.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_ifu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_ifu_ifetch' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ifetch.v:29]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffrs' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:177]
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffrs' (21#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:177]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized3' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffrs' (21#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:177]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized3' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized3' (21#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized4' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized3' (21#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized4' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 5 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized4' (21#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'e203_ifu_minidec' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_minidec.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_decode' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_decode.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_decode' (22#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_decode.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_minidec' (23#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_minidec.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_ifu_litebpu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_litebpu.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_litebpu' (24#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_litebpu.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_ifetch' (25#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ifetch.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_ifu_ift2icb' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ift2icb.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized4' (21#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'e203_ifu_minidec' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_minidec.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_decode' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_decode.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_decode' (22#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_decode.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_minidec' (23#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_minidec.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_ifu_litebpu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_litebpu.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_litebpu' (24#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_litebpu.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_ifetch' (25#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ifetch.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_ifu_ift2icb' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ift2icb.v:30]
 	Parameter ICB_STATE_WIDTH bound to: 2 - type: integer 
 	Parameter ICB_STATE_IDLE bound to: 2'b00 
 	Parameter ICB_STATE_1ST bound to: 2'b01 
 	Parameter ICB_STATE_WAIT2ND bound to: 2'b10 
 	Parameter ICB_STATE_2ND bound to: 2'b11 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 33 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter MSKO bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 33 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 33 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl' (26#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflrs' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl' (26#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflrs' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:40]
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflrs' (27#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:40]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo' (28#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf' (29#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflrs' (27#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:40]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo' (28#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf' (29#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized0' (29#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized0' (29#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 16 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized1' (29#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_ift2icb' (30#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu_ift2icb.v:30]
-INFO: [Synth 8-6155] done synthesizing module 'e203_ifu' (31#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_ifu.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_regfile' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_regfile.v:28]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized1' (29#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'e203_ifu_ift2icb' (30#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu_ift2icb.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'e203_ifu' (31#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_ifu.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_regfile' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_regfile.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 32 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized2' (31#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_regfile' (32#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_regfile.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_disp' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_disp.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_disp' (33#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_disp.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_oitf' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_oitf.v:29]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized3' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized2' (31#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_regfile' (32#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_regfile.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_disp' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_disp.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_disp' (33#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_disp.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_oitf' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_oitf.v:29]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized3' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 5 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized3' (33#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized4' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized3' (33#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized4' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized4' (33#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_oitf' (34#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_oitf.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu.v:32]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_nice' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_nice.v:30]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized4' (33#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_oitf' (34#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_oitf.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu.v:32]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_nice' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_nice.v:30]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter MSKO bound to: 0 - type: integer 
 	Parameter DP bound to: 4 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized5' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized5' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 3 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized5' (34#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized6' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized5' (34#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dfflr__parameterized6' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
 	Parameter DW bound to: 4 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized6' (34#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:87]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized0' (34#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_nice' (35#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_nice.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_csrctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_csrctrl.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_csrctrl' (36#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_csrctrl.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_bjp' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_bjp.v:32]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_bjp' (37#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_bjp.v:32]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_lsuagu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_lsuagu.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dfflr__parameterized6' (34#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:87]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized0' (34#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_nice' (35#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_nice.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_csrctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_csrctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_csrctrl' (36#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_csrctrl.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_bjp' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_bjp.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_bjp' (37#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_bjp.v:32]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_lsuagu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_lsuagu.v:32]
 	Parameter ICB_STATE_WIDTH bound to: 4 - type: integer 
 	Parameter ICB_STATE_IDLE bound to: 4'b0000 
 	Parameter ICB_STATE_1ST bound to: 4'b0001 
@@ -204,10 +204,10 @@ INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_lsuagu' [C:/Users/Zhangsh
 	Parameter ICB_STATE_AMOALU bound to: 4'b0100 
 	Parameter ICB_STATE_AMORDY bound to: 4'b0101 
 	Parameter ICB_STATE_WBCK bound to: 4'b0110 
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_lsuagu' (38#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_lsuagu.v:32]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_rglr' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_rglr.v:30]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_rglr' (39#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_rglr.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_muldiv' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_muldiv.v:32]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_lsuagu' (38#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_lsuagu.v:32]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_rglr' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_rglr.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_rglr' (39#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_rglr.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_muldiv' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_muldiv.v:32]
 	Parameter MULDIV_STATE_WIDTH bound to: 3 - type: integer 
 	Parameter MULDIV_STATE_0TH bound to: 3'b000 
 	Parameter MULDIV_STATE_EXEC bound to: 3'b001 
@@ -218,35 +218,35 @@ INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_muldiv' [C:/Users/Zhangsh
 	Parameter EXEC_CNT_1 bound to: 6'b000001 
 	Parameter EXEC_CNT_16 bound to: 6'b010000 
 	Parameter EXEC_CNT_32 bound to: 6'b100000 
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_muldiv' (40#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_muldiv.v:32]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_dpath' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_dpath.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_muldiv' (40#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_muldiv.v:32]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_alu_dpath' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_dpath.v:29]
 	Parameter DPATH_MUX_WIDTH bound to: 85 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_dpath' (41#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu_dpath.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu' (42#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_alu.v:32]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_longpwbck' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_longpwbck.v:30]
-WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_longpwbck.v:141]
-WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_longpwbck.v:144]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_longpwbck' (43#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_longpwbck.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_wbck' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_wbck.v:30]
-WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_wbck.v:93]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_wbck' (44#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_wbck.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_commit' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_commit.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_branchslv' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_branchslv.v:30]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_branchslv' (45#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_branchslv.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_excp' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_excp.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_excp' (46#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_excp.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_commit' (47#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_commit.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_exu_csr' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_csr.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu_csr' (48#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu_csr.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_exu' (49#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_exu.v:29]
-INFO: [Synth 8-6157] synthesizing module 'e203_lsu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_lsu_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu_ctrl.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu_dpath' (41#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu_dpath.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_alu' (42#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_alu.v:32]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_longpwbck' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_longpwbck.v:30]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_longpwbck.v:141]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_longpwbck.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_longpwbck' (43#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_longpwbck.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_wbck' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_wbck.v:30]
+WARNING: [Synth 8-693] zero replication count - replication ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_wbck.v:93]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_wbck' (44#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_wbck.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_commit' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_commit.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_branchslv' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_branchslv.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_branchslv' (45#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_branchslv.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_excp' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_excp.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_excp' (46#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_excp.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_commit' (47#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_commit.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_exu_csr' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_csr.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu_csr' (48#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu_csr.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_exu' (49#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_exu.v:29]
+INFO: [Synth 8-6157] synthesizing module 'e203_lsu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_lsu_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu_ctrl.v:28]
 	Parameter LSU_ARBT_I_PTR_W bound to: 1 - type: integer 
 	Parameter LSU_ARBT_I_NUM bound to: 2 - type: integer 
 	Parameter USR_W bound to: 39 - type: integer 
 	Parameter USR_PACK_EXCL bound to: 0 - type: integer 
 	Parameter SPLT_FIFO_W bound to: 44 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
 	Parameter AW bound to: 32 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
 	Parameter USR_W bound to: 39 - type: integer 
@@ -256,30 +256,30 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt' [C:/Users/Zhangshi
 	Parameter ARBT_NUM bound to: 2 - type: integer 
 	Parameter ALLOW_0CYCL_RSP bound to: 0 - type: integer 
 	Parameter ARBT_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
 	Parameter CUT_READY bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage' (50#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt' (51#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage' (50#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt' (51#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
 	Parameter CUT_READY bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 44 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized5' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized5' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 44 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized5' (51#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized0' (51#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_lsu_ctrl' (52#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu_ctrl.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'e203_lsu' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_lsu.v:28]
-INFO: [Synth 8-6157] synthesizing module 'e203_biu' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_biu.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized5' (51#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized0' (51#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_lsu_ctrl' (52#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu_ctrl.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'e203_lsu' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_lsu.v:28]
+INFO: [Synth 8-6157] synthesizing module 'e203_biu' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_biu.v:29]
 	Parameter BIU_ARBT_I_NUM bound to: 2 - type: integer 
 	Parameter BIU_ARBT_I_PTR_W bound to: 1 - type: integer 
 	Parameter BIU_SPLT_I_NUM_0 bound to: 4 - type: integer 
 	Parameter BIU_SPLT_I_NUM_1 bound to: 5 - type: integer 
 	Parameter BIU_SPLT_I_NUM_2 bound to: 6 - type: integer 
 	Parameter BIU_SPLT_I_NUM bound to: 6 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
 	Parameter AW bound to: 32 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
@@ -289,13 +289,13 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized0' [C
 	Parameter ARBT_NUM bound to: 2 - type: integer 
 	Parameter ALLOW_0CYCL_RSP bound to: 0 - type: integer 
 	Parameter ARBT_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized1' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized0' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_buffer' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:351]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized1' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized0' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_buffer' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:351]
 	Parameter OUTS_CNT_W bound to: 1 - type: integer 
 	Parameter AW bound to: 32 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
@@ -306,26 +306,26 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_buffer' [C:/Users/Zhangs
 	Parameter USR_W bound to: 1 - type: integer 
 	Parameter CMD_PACK_W bound to: 78 - type: integer 
 	Parameter RSP_PACK_W bound to: 35 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter MSKO bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 78 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized6' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized6' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 78 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized6' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized1' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized6' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized1' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter MSKO bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 35 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized7' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized7' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 35 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized7' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized2' (53#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_buffer' (54#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:351]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_splt' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:648]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized7' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized2' (53#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_buffer' (54#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:351]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_splt' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:648]
 	Parameter AW bound to: 32 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
 	Parameter FIFO_OUTS_NUM bound to: 1 - type: integer 
@@ -337,29 +337,29 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_splt' [C:/Users/Zhangshi
 	Parameter ALLOW_0CYCL_RSP bound to: 1 - type: integer 
 	Parameter VLD_MSK_PAYLOAD bound to: 0 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 6 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized8' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized8' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 6 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized8' (54#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized2' (54#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_splt' (55#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:648]
-INFO: [Synth 8-6155] done synthesizing module 'e203_biu' (56#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_biu.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_core' (57#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_core.v:30]
-INFO: [Synth 8-6157] synthesizing module 'e203_itcm_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_itcm_ctrl.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized8' (54#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized2' (54#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_splt' (55#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:648]
+INFO: [Synth 8-6155] done synthesizing module 'e203_biu' (56#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_biu.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_core' (57#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_core.v:30]
+INFO: [Synth 8-6157] synthesizing module 'e203_itcm_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_itcm_ctrl.v:31]
 	Parameter ITCM_ARBT_I_NUM bound to: 2 - type: integer 
 	Parameter ITCM_ARBT_I_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_n2w' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:503]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_n2w' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:503]
 	Parameter AW bound to: 16 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
 	Parameter FIFO_OUTS_NUM bound to: 1 - type: integer 
 	Parameter FIFO_CUT_READY bound to: 0 - type: integer 
 	Parameter X_W bound to: 32 - type: integer 
 	Parameter Y_W bound to: 64 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_n2w' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:503]
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_n2w' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:503]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
 	Parameter AW bound to: 16 - type: integer 
 	Parameter DW bound to: 64 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
@@ -369,45 +369,45 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized1' [C
 	Parameter ARBT_NUM bound to: 2 - type: integer 
 	Parameter ALLOW_0CYCL_RSP bound to: 0 - type: integer 
 	Parameter ARBT_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized1' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
-INFO: [Synth 8-6157] synthesizing module 'sirv_sram_icb_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized1' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_sram_icb_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
 	Parameter DW bound to: 64 - type: integer 
 	Parameter MW bound to: 8 - type: integer 
 	Parameter AW bound to: 16 - type: integer 
 	Parameter AW_LSB bound to: 3 - type: integer 
 	Parameter USR_W bound to: 2 - type: integer 
 	Parameter BUF_CMD_PACK_W bound to: 91 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 91 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized3' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_fifo__parameterized3' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
 	Parameter CUT_READY bound to: 1 - type: integer 
 	Parameter MSKO bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 91 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized9' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_dffl__parameterized9' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
 	Parameter DW bound to: 91 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized9' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized3' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf__parameterized0' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
-INFO: [Synth 8-6157] synthesizing module 'sirv_1cyc_sram_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized9' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized3' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf__parameterized0' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6157] synthesizing module 'sirv_1cyc_sram_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
 	Parameter DW bound to: 64 - type: integer 
 	Parameter MW bound to: 8 - type: integer 
 	Parameter AW bound to: 16 - type: integer 
 	Parameter AW_LSB bound to: 3 - type: integer 
 	Parameter USR_W bound to: 2 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized3' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_pipe_stage__parameterized3' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
 	Parameter CUT_READY bound to: 0 - type: integer 
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 2 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized3' (58#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:28]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_1cyc_sram_ctrl' (59#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_sram_icb_ctrl' (60#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_itcm_ctrl' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_itcm_ctrl.v:31]
-INFO: [Synth 8-6157] synthesizing module 'e203_dtcm_ctrl' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_dtcm_ctrl.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_pipe_stage__parameterized3' (58#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_1cyc_sram_ctrl' (59#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_sram_icb_ctrl' (60#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_itcm_ctrl' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_itcm_ctrl.v:31]
+INFO: [Synth 8-6157] synthesizing module 'e203_dtcm_ctrl' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_dtcm_ctrl.v:31]
 	Parameter DTCM_ARBT_I_NUM bound to: 2 - type: integer 
 	Parameter DTCM_ARBT_I_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized2' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized2' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
 	Parameter AW bound to: 16 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
@@ -417,15 +417,15 @@ INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_icb_arbt__parameterized2' [C
 	Parameter ARBT_NUM bound to: 2 - type: integer 
 	Parameter ALLOW_0CYCL_RSP bound to: 0 - type: integer 
 	Parameter ARBT_PTR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized2' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_icbs.v:37]
-INFO: [Synth 8-6157] synthesizing module 'sirv_sram_icb_ctrl__parameterized0' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_icb_arbt__parameterized2' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_icbs.v:37]
+INFO: [Synth 8-6157] synthesizing module 'sirv_sram_icb_ctrl__parameterized0' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
 	Parameter DW bound to: 32 - type: integer 
 	Parameter MW bound to: 4 - type: integer 
 	Parameter AW bound to: 16 - type: integer 
 	Parameter AW_LSB bound to: 2 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
 	Parameter BUF_CMD_PACK_W bound to: 54 - type: integer 
-INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf__parameterized1' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6157] synthesizing module 'sirv_gnrl_bypbuf__parameterized1' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
 INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 54 - type: integer 
@@ -434,18 +434,18 @@ INFO: [Common 17-14] Message 'Synth 8-6157' appears 100 times and further instan
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 54 - type: integer 
 	Parameter DW bound to: 54 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized10' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_dffs.v:133]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized4' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:381]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf__parameterized1' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_bufs.v:306]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_dffl__parameterized10' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:133]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_fifo__parameterized4' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:381]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_bypbuf__parameterized1' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:306]
 	Parameter DW bound to: 32 - type: integer 
 	Parameter MW bound to: 4 - type: integer 
 	Parameter AW bound to: 16 - type: integer 
 	Parameter AW_LSB bound to: 2 - type: integer 
 	Parameter USR_W bound to: 1 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_1cyc_sram_ctrl__parameterized0' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_sram_icb_ctrl__parameterized0' (61#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
-INFO: [Synth 8-6155] done synthesizing module 'e203_dtcm_ctrl' (62#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_dtcm_ctrl.v:31]
-INFO: [Synth 8-6155] done synthesizing module 'e203_cpu' (63#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/core/e203_cpu.v:30]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_1cyc_sram_ctrl__parameterized0' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_1cyc_sram_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_sram_icb_ctrl__parameterized0' (61#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sram_icb_ctrl.v:29]
+INFO: [Synth 8-6155] done synthesizing module 'e203_dtcm_ctrl' (62#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_dtcm_ctrl.v:31]
+INFO: [Synth 8-6155] done synthesizing module 'e203_cpu' (63#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/core/e203_cpu.v:30]
 	Parameter DP bound to: 8192 - type: integer 
 	Parameter DW bound to: 64 - type: integer 
 	Parameter FORCE_X2ZERO bound to: 0 - type: integer 
@@ -456,8 +456,8 @@ INFO: [Synth 8-6155] done synthesizing module 'e203_cpu' (63#1) [C:/Users/Zhangs
 	Parameter DW bound to: 64 - type: integer 
 	Parameter MW bound to: 8 - type: integer 
 	Parameter AW bound to: 13 - type: integer 
-INFO: [Synth 8-6155] done synthesizing module 'sirv_sim_ram' (64#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_sim_ram.v:27]
-INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_ram' (65#1) [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/general/sirv_gnrl_ram.v:28]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_sim_ram' (64#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_sim_ram.v:27]
+INFO: [Synth 8-6155] done synthesizing module 'sirv_gnrl_ram' (65#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_ram.v:28]
 INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 	Parameter DP bound to: 16384 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
@@ -573,8 +573,8 @@ INFO: [Common 17-14] Message 'Synth 8-6155' appears 100 times and further instan
 	Parameter DP bound to: 1 - type: integer 
 	Parameter DW bound to: 32 - type: integer 
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_gpio/apb_gpio.v:132]
-INFO: [Synth 8-226] default block is never used [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_gpio/apb_gpio.v:193]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_gpio/apb_gpio.v:132]
+INFO: [Synth 8-226] default block is never used [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_gpio/apb_gpio.v:193]
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter RBR bound to: 3'b000 
 	Parameter THR bound to: 3'b000 
@@ -610,16 +610,16 @@ INFO: [Synth 8-226] default block is never used [C:/Users/Zhangshi/Desktop/risc-
 	Parameter LOG_BUFFER_DEPTH bound to: 4 - type: integer 
 	Parameter TX_FIFO_DEPTH bound to: 16 - type: integer 
 	Parameter RX_FIFO_DEPTH bound to: 16 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v:181]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:181]
 	Parameter BUFFER_DEPTH bound to: 10 - type: integer 
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter LOG_BUFFER_DEPTH bound to: 4 - type: integer 
 	Parameter FILL_BITS bound to: 3 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/apb_spi_master.v:124]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/apb_spi_master.v:124]
 	Parameter BUFFER_DEPTH bound to: 10 - type: integer 
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
 	Parameter LOG_BUFFER_DEPTH bound to: 4 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_apb_if.v:109]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_apb_if.v:109]
 	Parameter DATA_WIDTH bound to: 32 - type: integer 
 	Parameter BUFFER_DEPTH bound to: 10 - type: integer 
 	Parameter LOG_BUFFER_DEPTH bound to: 4 - type: integer 
@@ -642,10 +642,10 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhan
 	Parameter RECEIVE bound to: 2'b01 
 	Parameter WAIT_FIFO bound to: 2'b10 
 	Parameter WAIT_FIFO_DONE bound to: 2'b11 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_controller.v:172]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_spi_master/spi_master_controller.v:215]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_controller.v:172]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_spi_master/spi_master_controller.v:215]
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_i2c/apb_i2c.v:96]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_i2c/apb_i2c.v:96]
 	Parameter ST_IDLE bound to: 5'b00000 
 	Parameter ST_START bound to: 5'b00001 
 	Parameter ST_READ bound to: 5'b00010 
@@ -675,7 +675,7 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhan
 	Parameter TIMER_NBITS bound to: 16 - type: integer 
 	Parameter N_TIMEREXTSIG bound to: 48 - type: integer 
 	Parameter APB_ADDR_WIDTH bound to: 32 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_adv_timer/adv_timer_apb_if.v:626]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_adv_timer/adv_timer_apb_if.v:626]
 	Parameter NUM_BITS bound to: 16 - type: integer 
 	Parameter N_EXTSIG bound to: 48 - type: integer 
 	Parameter EXTSIG_NUM bound to: 48 - type: integer 
@@ -773,6 +773,18 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhan
 	Parameter MSKO bound to: 1 - type: integer 
 	Parameter DP bound to: 4 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
+WARNING: [Synth 8-6104] Input port 'expl_axi_wvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:504]
+WARNING: [Synth 8-6104] Input port 'expl_axi_wdata' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:506]
+WARNING: [Synth 8-6104] Input port 'expl_axi_wstrb' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:507]
+WARNING: [Synth 8-6104] Input port 'expl_axi_wlast' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:508]
+WARNING: [Synth 8-6104] Input port 'expl_axi_arready' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:524]
+WARNING: [Synth 8-6104] Input port 'expl_axi_awready' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:534]
+WARNING: [Synth 8-6104] Input port 'expl_axi_rvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:543]
+WARNING: [Synth 8-6104] Input port 'expl_axi_rdata' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:545]
+WARNING: [Synth 8-6104] Input port 'expl_axi_rresp' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:546]
+WARNING: [Synth 8-6104] Input port 'expl_axi_rlast' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:547]
+WARNING: [Synth 8-6104] Input port 'expl_axi_bvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:555]
+WARNING: [Synth 8-6104] Input port 'expl_axi_bresp' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:557]
 	Parameter SUPPORT_JTAG_DTM bound to: 1 - type: integer 
 	Parameter ASYNC_FF_LEVELS bound to: 2 - type: integer 
 	Parameter PC_SIZE bound to: 32 - type: integer 
@@ -810,9 +822,9 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhan
 	Parameter DBUS_REQ_BITS bound to: 41 - type: integer 
 	Parameter DBUS_RESP_BITS bound to: 36 - type: integer 
 	Parameter SHIFT_REG_BITS bound to: 41 - type: integer 
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_jtag_dtm.v:237]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_jtag_dtm.v:295]
-INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/debug/sirv_jtag_dtm.v:308]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_jtag_dtm.v:237]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_jtag_dtm.v:295]
+INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/debug/sirv_jtag_dtm.v:308]
 	Parameter DW bound to: 41 - type: integer 
 	Parameter SYNC_DP bound to: 2 - type: integer 
 	Parameter DW bound to: 41 - type: integer 
@@ -897,21 +909,53 @@ Reason is one or more of the following :
 	2: No valid read/write found for RAM. 
 	2: Only 1 word in RAM 
 RAM "ram_extra_reg" dissolved into registers
+WARNING: [Synth 8-7071] port 'expl_axi_arvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_araddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_arsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awaddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_awsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_rvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_rready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_rdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_rresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_rlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_wvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_wready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_wdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_wstrb' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_wlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_bvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_bready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7071] port 'expl_axi_bresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
+WARNING: [Synth 8-7023] instance 'dut' of module 'e203_soc_top' has 68 connections declared, but only 37 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/system.v:277]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1458.316 ; gain = 315.895
+Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:13 . Memory (MB): peak = 1459.641 ; gain = 317.621
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1479.223 ; gain = 336.801
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1482.547 ; gain = 340.527
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1479.223 ; gain = 336.801
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1482.547 ; gain = 340.527
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.866 . Memory (MB): peak = 1479.223 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.862 . Memory (MB): peak = 1482.547 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -920,101 +964,101 @@ Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys
 Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys/reset_sys_in_context.xdc] for cell 'ip_reset_sys'
 Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc] for cell 'ip_mmcm'
 Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc] for cell 'ip_mmcm'
-Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]
-Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-config.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
+Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc]
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]
-INFO: [Vivado 12-4777] Setting CLOCK_DEDICATED_ROUTE constraint on the PARENT net instead of the specified net segment (net name: dut_io_pads_jtag_TCK_i_ival). Placer only honors CLOCK_DEDICATED_ROUTE when set on the PARENT net, e.g. net segment directly connected to the driver. To eliminate this message, please update your constraint to specify the PARENT net instead. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc:15]
-Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
+Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc]
+INFO: [Vivado 12-4777] Setting CLOCK_DEDICATED_ROUTE constraint on the PARENT net instead of the specified net segment (net name: dut_io_pads_jtag_TCK_i_ival). Placer only honors CLOCK_DEDICATED_ROUTE when set on the PARENT net, e.g. net segment directly connected to the driver. To eliminate this message, please update your constraint to specify the PARENT net instead. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc:15]
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/system_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/system_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
-Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc]
-WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:1]
-WARNING: [Vivado 12-507] No nets matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:2]
-WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:3]
-WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:4]
-WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:5]
-WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:6]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:9]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[1]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:10]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[2]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:11]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[3]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:12]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[4]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:13]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[5]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:14]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[6]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:15]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[7]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:16]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[8]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:17]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[9]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:18]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[10]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:19]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[11]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:20]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[12]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:21]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[13]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:22]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[14]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:23]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[15]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:24]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[16]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:25]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[17]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:26]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[18]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:27]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[19]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:28]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[20]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:29]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[21]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:30]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[22]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:31]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[23]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:32]
-WARNING: [Vivado 12-584] No ports matched 'lcd_hs'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:33]
-WARNING: [Vivado 12-584] No ports matched 'lcd_vs'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:34]
-WARNING: [Vivado 12-584] No ports matched 'lcd_de'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:35]
-WARNING: [Vivado 12-584] No ports matched 'lcd_bl'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:36]
-WARNING: [Vivado 12-584] No ports matched 'lcd_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:37]
-WARNING: [Vivado 12-584] No ports matched 'lcd_rst'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:38]
-WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:43]
-WARNING: [Vivado 12-507] No nets matched 'cam_pclk_IBUF'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:44]
-WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:45]
-WARNING: [Vivado 12-584] No ports matched 'cam_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:46]
-WARNING: [Vivado 12-584] No ports matched 'cam_pwdn'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:47]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:48]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[1]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:49]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[2]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:50]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[3]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:51]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[4]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:52]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[5]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:53]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[6]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:54]
-WARNING: [Vivado 12-584] No ports matched 'cam_data[7]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:55]
-WARNING: [Vivado 12-584] No ports matched 'cam_vsync'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:56]
-WARNING: [Vivado 12-584] No ports matched 'cam_href'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:57]
-WARNING: [Vivado 12-584] No ports matched 'cam_scl'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:58]
-WARNING: [Vivado 12-584] No ports matched 'cam_sda'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:59]
-WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:71]
-WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc:72]
-Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc]
-WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
+Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:1]
+WARNING: [Vivado 12-507] No nets matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'sys_clk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:5]
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:6]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[0]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:9]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[1]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[2]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[3]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:12]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[4]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:13]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[5]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:14]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[6]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:15]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[7]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:16]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[8]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:17]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[9]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:18]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[10]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:19]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[11]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:20]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[12]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:21]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[13]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:22]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[14]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:23]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[15]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:24]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[16]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:25]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[17]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:26]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[18]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:27]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[19]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:28]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[20]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:29]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[21]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:30]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[22]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:31]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rgb[23]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:32]
+WARNING: [Vivado 12-584] No ports matched 'lcd_hs'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:33]
+WARNING: [Vivado 12-584] No ports matched 'lcd_vs'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:34]
+WARNING: [Vivado 12-584] No ports matched 'lcd_de'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:35]
+WARNING: [Vivado 12-584] No ports matched 'lcd_bl'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:36]
+WARNING: [Vivado 12-584] No ports matched 'lcd_pclk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:37]
+WARNING: [Vivado 12-584] No ports matched 'lcd_rst'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:38]
+WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:43]
+WARNING: [Vivado 12-507] No nets matched 'cam_pclk_IBUF'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:44]
+WARNING: [Vivado 12-584] No ports matched 'cam_pclk'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:45]
+WARNING: [Vivado 12-584] No ports matched 'cam_rst_n'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:46]
+WARNING: [Vivado 12-584] No ports matched 'cam_pwdn'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:47]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[0]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:48]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[1]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:49]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[2]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:50]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[3]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:51]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[4]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:52]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[5]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:53]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[6]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:54]
+WARNING: [Vivado 12-584] No ports matched 'cam_data[7]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:55]
+WARNING: [Vivado 12-584] No ports matched 'cam_vsync'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:56]
+WARNING: [Vivado 12-584] No ports matched 'cam_href'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:57]
+WARNING: [Vivado 12-584] No ports matched 'cam_scl'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:58]
+WARNING: [Vivado 12-584] No ports matched 'cam_sda'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:59]
+WARNING: [Vivado 12-584] No ports matched 'ddr3_ck_n[0]'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:71]
+WARNING: [Vivado 12-584] No ports matched 'sys_rst_n'. [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc:72]
+Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1621.320 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.011 . Memory (MB): peak = 1616.988 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 73 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 73 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 1621.320 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.113 . Memory (MB): peak = 1616.988 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1621.320 ; gain = 478.898
+Finished Constraint Validation : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1616.988 ; gain = 474.969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1621.320 ; gain = 478.898
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1616.988 ; gain = 474.969
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc, line 4).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc, line 5).
-WARNING: set_property CLOCK_DEDICATED_ROUTE could not find object (constraint file  C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/constrs/nuclei-master.xdc, line 16).
+WARNING: set_property CLOCK_DEDICATED_ROUTE could not find object (constraint file  C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-master.xdc, line 16).
 Applied set_property KEEP_HIERARCHY = SOFT for ip_reset_sys. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ip_mmcm. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1621.320 ; gain = 478.898
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:28 ; elapsed = 00:00:28 . Memory (MB): peak = 1616.988 ; gain = 474.969
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'uart_rx'
 INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'uart_tx'
@@ -1049,7 +1093,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'se
            STOP_BIT_LAST |                              101 |                              101
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'CS_reg' using encoding 'sequential' in module 'uart_tx'
-WARNING: [Synth 8-327] inferring latch for variable 'fifo_tx_data_reg' [C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/rtl/e203/perips/apb_uart/apb_uart.v:138]
+WARNING: [Synth 8-327] inferring latch for variable 'fifo_tx_data_reg' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:138]
 ---------------------------------------------------------------------------------------------------
                    State |                     New Encoding |                Previous Encoding 
 ---------------------------------------------------------------------------------------------------
@@ -1127,7 +1171,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encodin
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'jtagStateReg_reg' using encoding 'one-hot' in module 'sirv_jtag_dtm'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:36 ; elapsed = 00:00:37 . Memory (MB): peak = 1621.320 ; gain = 478.898
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:35 ; elapsed = 00:00:36 . Memory (MB): peak = 1616.988 ; gain = 474.969
 ---------------------------------------------------------------------------------
 RAM Pipeline Warning: Read Address Register Found For RAM mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
@@ -1296,8 +1340,82 @@ WARNING: [Synth 8-6841] Block RAM (u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl
 (address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
 RAM Pipeline Warning: Read Address Register Found For RAM u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[31] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[36]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[31] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[31]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[30] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[35]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[30] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[30]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[29] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[34]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[29] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[29]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[28] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[33]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[28] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[28]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[27] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[32]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[27] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[27]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[26] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[31]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[26] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[26]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[25] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[30]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[25] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[25]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[24] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[29]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[24] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[24]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[23] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[28]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[23] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[23]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[22] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[27]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[22] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[22]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[21] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[26]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[21] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[21]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[20] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[25]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[20] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[20]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[19] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[24]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[19] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[19]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[18] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[23]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[18] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[18]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[17] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[22]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[17] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[17]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[16] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[21]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[16] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[16]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[15] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[20]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[15] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[15]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[14] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[19]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[14] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[14]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[13] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[18]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[13] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[13]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[12] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[17]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[12] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[12]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[11] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[16]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[11] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[11]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[10] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[15]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[10] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[10]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[9] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[14]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[9] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[9]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[8] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[13]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[8] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[8]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[7] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[12]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[7] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[7]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[6] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[11]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[6] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[6]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[5] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[10]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[5] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[5]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[4] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[9]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[4] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[4]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[3] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[8]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[3] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[2] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[7]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[2] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[1] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[6]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[1] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[0] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[5]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[0] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[3] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[4]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[3] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[2] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[2] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[1] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[1] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[0] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[0] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wlast with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wlast with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wlast' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:05:59 ; elapsed = 00:06:08 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:04:27 ; elapsed = 00:04:29 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1339,13 +1457,13 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-565] redefining clock 'sys_clk_pin'
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:06 ; elapsed = 00:06:17 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:04:32 ; elapsed = 00:04:34 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:06:15 ; elapsed = 00:06:27 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Timing Optimization : Time (s): cpu = 00:04:37 ; elapsed = 00:04:39 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1374,6 +1492,15 @@ Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_rvalid with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_ar_fifo/dp_gt0.vec_31_dfflr/qout_r_reg[0]/Q' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_rvalid with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_rvalid is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wvalid with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/dp_gt0.vec_31_dfflr/qout_r_reg[0]/Q' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wvalid with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_wvalid is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_arready with 1st driver pin 'u_e203_subsys_maini_3/i_15432/O' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_arready with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_arready is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
 INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
@@ -1407,7 +1534,7 @@ INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_su
 INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 INFO: [Synth 8-7052] The timing for the instance dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:06:34 ; elapsed = 00:06:48 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Technology Mapping : Time (s): cpu = 00:04:47 ; elapsed = 00:04:49 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1425,37 +1552,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:06:41 ; elapsed = 00:06:55 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished IO Insertion : Time (s): cpu = 00:04:51 ; elapsed = 00:04:53 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:06:41 ; elapsed = 00:06:55 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Renaming Generated Instances : Time (s): cpu = 00:04:51 ; elapsed = 00:04:53 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:47 ; elapsed = 00:07:01 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:04:55 ; elapsed = 00:04:57 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:06:47 ; elapsed = 00:07:01 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Renaming Generated Ports : Time (s): cpu = 00:04:55 ; elapsed = 00:04:57 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:06:48 ; elapsed = 00:07:02 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Handling Custom Attributes : Time (s): cpu = 00:04:55 ; elapsed = 00:04:58 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:06:48 ; elapsed = 00:07:02 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Renaming Generated Nets : Time (s): cpu = 00:04:55 ; elapsed = 00:04:58 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1478,38 +1605,38 @@ Report Cell Usage:
 |3     |BUFG      |     2|
 |4     |CARRY4    |   393|
 |5     |LUT1      |   303|
-|6     |LUT2      |   955|
-|7     |LUT3      |  1266|
-|8     |LUT4      |  1581|
+|6     |LUT2      |   946|
+|7     |LUT3      |  1292|
+|8     |LUT4      |  1554|
 |9     |LUT5      |  2516|
-|10    |LUT6      |  6121|
+|10    |LUT6      |  6117|
 |11    |MUXF7     |   529|
 |12    |MUXF8     |   119|
 |13    |PULLUP    |     7|
 |14    |RAM32M    |     4|
 |15    |RAMB36E1  |    32|
-|17    |FDCE      |  8097|
-|18    |FDPE      |   417|
-|19    |FDRE      |  2746|
-|20    |FDSE      |     1|
+|17    |FDCE      |  8083|
+|18    |FDPE      |   410|
+|19    |FDRE      |  2693|
+|20    |FDSE      |    51|
 |21    |LD        |    24|
 |22    |IBUF      |     3|
 |23    |IOBUF     |    73|
 |24    |OBUF      |     4|
 +------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:06:48 ; elapsed = 00:07:02 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Finished Writing Synthesis Report : Time (s): cpu = 00:04:56 ; elapsed = 00:04:58 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:06:24 ; elapsed = 00:06:53 . Memory (MB): peak = 2380.559 ; gain = 1096.039
-Synthesis Optimization Complete : Time (s): cpu = 00:06:48 ; elapsed = 00:07:02 . Memory (MB): peak = 2380.559 ; gain = 1238.137
+Synthesis finished with 0 errors, 83 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:04:32 ; elapsed = 00:04:49 . Memory (MB): peak = 2381.227 ; gain = 1104.766
+Synthesis Optimization Complete : Time (s): cpu = 00:04:56 ; elapsed = 00:04:58 . Memory (MB): peak = 2381.227 ; gain = 1239.207
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.852 . Memory (MB): peak = 2380.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.649 . Memory (MB): peak = 2381.227 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 1174 Unisim elements for replacement
-INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.020 . Memory (MB): peak = 2380.559 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.007 . Memory (MB): peak = 2381.227 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 101 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 73 instances
@@ -1517,10 +1644,10 @@ INFO: [Project 1-111] Unisim Transformation Summary:
   RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-279 Infos, 70 Warnings, 0 Critical Warnings and 0 Errors encountered.
+279 Infos, 114 Warnings, 83 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:07:03 ; elapsed = 00:07:18 . Memory (MB): peak = 2380.559 ; gain = 1238.137
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/risc-v-oppenyes/my_e203/prj/e203_zs/e203_zs.runs/synth_1/system.dcp' has been generated.
-write_checkpoint: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2380.559 ; gain = 0.000
+synth_design: Time (s): cpu = 00:05:07 ; elapsed = 00:05:10 . Memory (MB): peak = 2381.227 ; gain = 1239.207
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/system.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_utilization_synth.rpt -pb system_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Sun Jan 19 23:29:50 2025...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 01:51:03 2025...
