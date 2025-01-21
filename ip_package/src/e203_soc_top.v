@@ -98,11 +98,12 @@ module e203_soc_top(
     input                                    expl_axi_rlast                ,// AXI read last
 
     // AXI Write Data Channel
-    output                                    expl_axi_wvalid               ,// AXI write valid
-    input                                   expl_axi_wready               ,// AXI write ready
-    output              [`E203_XLEN-1: 0]     expl_axi_wdata                ,// AXI write data
-    output              [(`E203_XLEN/8)-1: 0] expl_axi_wstrb                ,// AXI write strobe
-    output                                    expl_axi_wlast                ,// AXI write last
+    input                                    expl_axi_wvalid               ,// AXI write valid
+    output                                   expl_axi_wready               ,// AXI write ready
+    input              [`E203_XLEN-1: 0]     expl_axi_wdata                ,// AXI write data
+    input              [(`E203_XLEN/8)-1: 0] expl_axi_wstrb                ,// AXI write strobe
+    input                                    expl_axi_wlast                ,// AXI write last
+
     // AXI Write Response Channel
     input                                    expl_axi_bvalid               ,// AXI write response valid
     output                                   expl_axi_bready               ,// AXI write response ready

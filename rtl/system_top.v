@@ -33,41 +33,41 @@ module system_top
   inout wire mcu_wakeup  //MCU_WAKE-N15
 );    
 
-    wire                                expl_axi_arvalid              ;
-    wire                                expl_axi_arready              ;
-    wire               [`E203_ADDR_SIZE-1: 0]expl_axi_araddr          ;
-    wire               [   3: 0]        expl_axi_arcache              ;
-    wire               [   2: 0]        expl_axi_arprot               ;
-    wire               [   1: 0]        expl_axi_arlock               ;
-    wire               [   1: 0]        expl_axi_arburst              ;
-    wire               [   3: 0]        expl_axi_arlen                ;
-    wire               [   2: 0]        expl_axi_arsize               ;
+    wire                                     expl_axi_arvalid              ;
+    wire                                     expl_axi_arready              ;
+    wire               [`E203_ADDR_SIZE-1: 0]expl_axi_araddr               ;
+    wire               [   3: 0]             expl_axi_arcache              ;
+    wire               [   2: 0]             expl_axi_arprot               ;
+    wire               [   1: 0]             expl_axi_arlock               ;
+    wire               [   1: 0]             expl_axi_arburst              ;
+    wire               [   3: 0]             expl_axi_arlen                ;
+    wire               [   2: 0]             expl_axi_arsize               ;
 
-    wire                                expl_axi_awvalid              ;
-    wire                                expl_axi_awready              ;
-    wire               [`E203_ADDR_SIZE-1: 0]expl_axi_awaddr          ;
-    wire               [   3: 0]        expl_axi_awcache              ;
-    wire               [   2: 0]        expl_axi_awprot               ;
-    wire               [   1: 0]        expl_axi_awlock               ;
-    wire               [   1: 0]        expl_axi_awburst              ;
-    wire               [   3: 0]        expl_axi_awlen                ;
-    wire               [   2: 0]        expl_axi_awsize               ;
+    wire                                     expl_axi_awvalid              ;
+    wire                                     expl_axi_awready              ;
+    wire               [`E203_ADDR_SIZE-1: 0]expl_axi_awaddr               ;
+    wire               [   3: 0]             expl_axi_awcache              ;
+    wire               [   2: 0]             expl_axi_awprot               ;
+    wire               [   1: 0]             expl_axi_awlock               ;
+    wire               [   1: 0]             expl_axi_awburst              ;
+    wire               [   3: 0]             expl_axi_awlen                ;
+    wire               [   2: 0]             expl_axi_awsize               ;
 
-    wire                                expl_axi_rvalid               ;
-    wire                                expl_axi_rready               ;
-    wire               [`E203_XLEN-1: 0]expl_axi_rdata                ;
-    wire               [   1: 0]        expl_axi_rresp                ;
-    wire                                expl_axi_rlast                ;
+    wire                                     expl_axi_rvalid               ;
+    wire                                     expl_axi_rready               ;
+    wire               [`E203_XLEN-1: 0]     expl_axi_rdata                ;
+    wire               [   1: 0]             expl_axi_rresp                ;
+    wire                                     expl_axi_rlast                ;
 
-    wire                                expl_axi_wvalid               ;
-    wire                                expl_axi_wready               ;
-    wire               [`E203_XLEN-1: 0]expl_axi_wdata                ;
-    wire               [(`E203_XLEN/8)-1: 0]expl_axi_wstrb            ;
-    wire                                expl_axi_wlast                ;
+    wire                                     expl_axi_wvalid               ;
+    wire                                     expl_axi_wready               ;
+    wire               [`E203_XLEN-1: 0]     expl_axi_wdata                ;
+    wire               [(`E203_XLEN/8)-1: 0] expl_axi_wstrb                ;
+    wire                                     expl_axi_wlast                ;
 
-    wire                                expl_axi_bvalid               ;
-    wire                                expl_axi_bready               ;
-    wire               [   1: 0]        expl_axi_bresp                ;
+    wire                                     expl_axi_bvalid               ;
+    wire                                     expl_axi_bready               ;
+    wire               [   1: 0]             expl_axi_bresp                ;
   // wire clk_out1;
   wire mmcm_locked;
 
