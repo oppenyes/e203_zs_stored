@@ -2,7 +2,7 @@
 `include "e203_defines.v"
 module system_top
 (
-  input wire clk_100M,//GCLK-W19
+  input wire CLK100MHZ,//GCLK-W19
   input wire CLK32768KHZ,//RTC_CLK-Y18
 
   input wire fpga_rst,//FPGA_RESET-T6
