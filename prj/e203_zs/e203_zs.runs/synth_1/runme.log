@@ -10,6 +10,9 @@
     ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 
 source system_top.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'c:/Users/Zhangshi/Desktop/my_git/e203_zs/ip_packaged'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'E:/Xilinx/Vivado/2020.2/data/ip'.
 Command: synth_design -top system_top -part xc7a200tfbg484-2
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a200t'
@@ -17,21 +20,21 @@ INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a200
 INFO: [Device 21-403] Loading part xc7a200tfbg484-2
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13048
+INFO: [Synth 8-7075] Helper process launched with PID 1956
 WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:36]
 WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:38]
 WARNING: [Synth 8-2507] parameter declaration becomes local in apb_uart_sv with formal parameter declaration list [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/perips/apb_uart/apb_uart.v:39]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 1186.305 ; gain = 66.023
+Starting RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 1185.848 ; gain = 46.137
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'system_top' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/system_top.v:3]
-INFO: [Synth 8-6157] synthesizing module 'mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18020-Lab/realtime/mmcm_stub.v:5]
-INFO: [Synth 8-6155] done synthesizing module 'mmcm' (1#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18020-Lab/realtime/mmcm_stub.v:5]
-WARNING: [Synth 8-7071] port 'clk_out1' of module 'mmcm' is unconnected for instance 'ip_mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/system_top.v:83]
-WARNING: [Synth 8-7023] instance 'ip_mmcm' of module 'mmcm' has 5 connections declared, but only 4 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/system_top.v:83]
-INFO: [Synth 8-6157] synthesizing module 'e203_zs' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:3]
-INFO: [Synth 8-6157] synthesizing module 'reset_sys' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18020-Lab/realtime/reset_sys_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'reset_sys' (2#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-18020-Lab/realtime/reset_sys_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-20172-Lab/realtime/mmcm_stub.v:5]
+INFO: [Synth 8-6155] done synthesizing module 'mmcm' (1#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-20172-Lab/realtime/mmcm_stub.v:5]
+WARNING: [Synth 8-7071] port 'clk_out1' of module 'mmcm' is unconnected for instance 'ip_mmcm' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/system_top.v:86]
+WARNING: [Synth 8-7023] instance 'ip_mmcm' of module 'mmcm' has 5 connections declared, but only 4 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/system_top.v:86]
+INFO: [Synth 8-6157] synthesizing module 'reset_sys' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-20172-Lab/realtime/reset_sys_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'reset_sys' (2#1) [C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/.Xil/Vivado-20172-Lab/realtime/reset_sys_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'e203_zs' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:4]
 INFO: [Synth 8-6157] synthesizing module 'PULLUP' [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:69810]
 INFO: [Synth 8-6155] done synthesizing module 'PULLUP' (3#1) [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:69810]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [E:/Xilinx/Vivado/2020.2/scripts/rt/data/unisim_comp.v:36242]
@@ -773,16 +776,13 @@ INFO: [Synth 8-155] case statement is not full and has no default [C:/Users/Zhan
 	Parameter MSKO bound to: 1 - type: integer 
 	Parameter DP bound to: 4 - type: integer 
 	Parameter DW bound to: 1 - type: integer 
-WARNING: [Synth 8-6104] Input port 'expl_axi_wvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:504]
-WARNING: [Synth 8-6104] Input port 'expl_axi_wdata' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:506]
-WARNING: [Synth 8-6104] Input port 'expl_axi_wstrb' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:507]
-WARNING: [Synth 8-6104] Input port 'expl_axi_wlast' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:508]
 WARNING: [Synth 8-6104] Input port 'expl_axi_arready' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:524]
 WARNING: [Synth 8-6104] Input port 'expl_axi_awready' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:534]
 WARNING: [Synth 8-6104] Input port 'expl_axi_rvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:543]
 WARNING: [Synth 8-6104] Input port 'expl_axi_rdata' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:545]
 WARNING: [Synth 8-6104] Input port 'expl_axi_rresp' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:546]
 WARNING: [Synth 8-6104] Input port 'expl_axi_rlast' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:547]
+WARNING: [Synth 8-6104] Input port 'expl_axi_wready' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:550]
 WARNING: [Synth 8-6104] Input port 'expl_axi_bvalid' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:555]
 WARNING: [Synth 8-6104] Input port 'expl_axi_bresp' has an internal driver [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:557]
 	Parameter SUPPORT_JTAG_DTM bound to: 1 - type: integer 
@@ -909,59 +909,59 @@ Reason is one or more of the following :
 	2: No valid read/write found for RAM. 
 	2: Only 1 word in RAM 
 RAM "ram_extra_reg" dissolved into registers
-WARNING: [Synth 8-7071] port 'expl_axi_arvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_araddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_arsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awaddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_awsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_rvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_rready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_rdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_rresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_rlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_wvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_wready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_wdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_wstrb' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_wlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_bvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_bready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7071] port 'expl_axi_bresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
-WARNING: [Synth 8-7023] instance 'dut' of module 'e203_soc_top' has 68 connections declared, but only 37 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:320]
+WARNING: [Synth 8-7071] port 'expl_axi_arvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_araddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_arsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awaddr' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awcache' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awprot' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awlock' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awburst' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awlen' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_awsize' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_rvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_rready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_rdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_rresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_rlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_wvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_wready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_wdata' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_wstrb' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_wlast' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_bvalid' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_bready' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7071] port 'expl_axi_bresp' of module 'e203_soc_top' is unconnected for instance 'dut' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
+WARNING: [Synth 8-7023] instance 'dut' of module 'e203_soc_top' has 68 connections declared, but only 37 given [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/e203_zs.v:322]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 1459.137 ; gain = 338.855
+Finished RTL Elaboration : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 1459.848 ; gain = 320.137
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1480.668 ; gain = 360.387
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1481.754 ; gain = 342.043
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:17 . Memory (MB): peak = 1480.668 ; gain = 360.387
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1481.754 ; gain = 342.043
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.939 . Memory (MB): peak = 1480.668 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.879 . Memory (MB): peak = 1481.754 ; gain = 0.000
 INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys/reset_sys_in_context.xdc] for cell 'u_e203_zs/ip_reset_sys'
-Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys/reset_sys_in_context.xdc] for cell 'u_e203_zs/ip_reset_sys'
+Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys/reset_sys_in_context.xdc] for cell 'ip_reset_sys'
+Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/reset_sys/reset_sys/reset_sys_in_context.xdc] for cell 'ip_reset_sys'
 Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc] for cell 'ip_mmcm'
 Finished Parsing XDC File [c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc] for cell 'ip_mmcm'
 Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/nuclei-config.xdc]
@@ -1035,31 +1035,31 @@ Finished Parsing XDC File [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.
 WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [C:/Users/Zhangshi/Desktop/my_git/e203_zs/constrs/pin.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/system_top_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.013 . Memory (MB): peak = 1620.000 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.017 . Memory (MB): peak = 1619.648 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
   A total of 73 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 73 instances
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.111 . Memory (MB): peak = 1620.000 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.138 . Memory (MB): peak = 1619.648 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1620.000 ; gain = 499.719
+Finished Constraint Validation : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1619.648 ; gain = 479.938
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a200tfbg484-2
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1620.000 ; gain = 499.719
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1619.648 ; gain = 479.938
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property IO_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc, line 4).
 Applied set_property CLOCK_BUFFER_TYPE = NONE for CLK100MHZ. (constraint file  c:/Users/Zhangshi/Desktop/project_5.gen/sources_1/ip/mmcm/mmcm/mmcm_in_context.xdc, line 5).
-Applied set_property KEEP_HIERARCHY = SOFT for u_e203_zs/ip_reset_sys. (constraint file  auto generated constraint).
+Applied set_property KEEP_HIERARCHY = SOFT for ip_reset_sys. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for ip_mmcm. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:30 ; elapsed = 00:00:31 . Memory (MB): peak = 1620.000 ; gain = 499.719
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:34 ; elapsed = 00:00:34 . Memory (MB): peak = 1619.648 ; gain = 479.938
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'uart_rx'
 INFO: [Synth 8-802] inferred FSM for state register 'CS_reg' in module 'uart_tx'
@@ -1172,7 +1172,7 @@ INFO: [Synth 8-3354] encoded FSM with state register 'c_state_reg' using encodin
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 'jtagStateReg_reg' using encoding 'one-hot' in module 'sirv_jtag_dtm'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:37 ; elapsed = 00:00:39 . Memory (MB): peak = 1620.000 ; gain = 499.719
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:47 ; elapsed = 00:00:49 . Memory (MB): peak = 1619.648 ; gain = 479.938
 ---------------------------------------------------------------------------------
 RAM Pipeline Warning: Read Address Register Found For RAM mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
@@ -1341,82 +1341,8 @@ WARNING: [Synth 8-6841] Block RAM (u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl
 (address width (14) is more than optimal threshold of 12. Implementing using BWWE will require more logic and timing would be suboptimal. Please use attribute ram_decomp = power if BWWE is desired.)
 RAM Pipeline Warning: Read Address Register Found For RAM u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
 RAM Pipeline Warning: Read Address Register Found For RAM u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg. We will not be able to pipeline it. This may degrade performance. 
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[31] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[36]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[31] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[31]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[30] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[35]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[30] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[30]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[29] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[34]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[29] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[29]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[28] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[33]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[28] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[28]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[27] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[32]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[27] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[27]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[26] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[31]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[26] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[26]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[25] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[30]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[25] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[25]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[24] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[29]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[24] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[24]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[23] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[28]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[23] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[23]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[22] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[27]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[22] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[22]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[21] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[26]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[21] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[21]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[20] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[25]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[20] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[20]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[19] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[24]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[19] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[19]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[18] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[23]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[18] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[18]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[17] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[22]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[17] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[17]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[16] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[21]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[16] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[16]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[15] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[20]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[15] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[15]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[14] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[19]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[14] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[14]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[13] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[18]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[13] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[13]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[12] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[17]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[12] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[12]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[11] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[16]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[11] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[11]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[10] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[15]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[10] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[10]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[9] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[14]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[9] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[9]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[8] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[13]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[8] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[8]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[7] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[12]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[7] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[7]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[6] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[11]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[6] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[6]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[5] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[10]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[5] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[5]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[4] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[9]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[4] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[4]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[3] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[8]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[3] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[2] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[7]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[2] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[1] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[6]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[1] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[0] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[5]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wdata[0] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wdata[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[3] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[4]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[3] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[2] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[3]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[2] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[1] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[2]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[1] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[0] with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[1]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wstrb[0] with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wstrb[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wlast with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/o_dat0_inferred/dp_gt0.mux_rdat[0]' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:503]
-CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wlast with 2nd driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/expl_axi_wlast' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/subsys/e203_subsys_mems.v:32]
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:02:33 ; elapsed = 00:02:36 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:06:18 ; elapsed = 00:06:21 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP, Shift Register and Retiming Reporting
@@ -1430,6 +1356,26 @@ ROM: Preliminary Mapping	Report
 |sirv_mrom_top | u_sirv_mrom/mask_rom | 1024x4        | LUT            | 
 +--------------+----------------------+---------------+----------------+
 
+
+Block RAM: Preliminary Mapping	Report (see note below)
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                          | RTL Object                                                                                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_e203_subsys_maini_3/u_e203_cpu_top | u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg | 8 K x 64(READ_FIRST)   | W |   | 8 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 0      | 16     | 
+|u_e203_subsys_maini_3/u_e203_cpu_top | u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg | 16 K x 32(READ_FIRST)  | W |   | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+Note: The table above is a preliminary report that shows the Block RAMs at the current stage of the synthesis flow. Some Block RAMs may be reimplemented as non Block RAM primitives later in the synthesis flow. Multiple instantiated Block RAMs are reported only once. 
+
+Distributed RAM: Preliminary Mapping	Report (see note below)
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+|Module Name                              | RTL Object                         | Inference | Size (Depth x Width) | Primitives  | 
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+|u_e203_subsys_peripsi_1/u_sirv_qspi0_top | u_sirv_flash_qspi/fifo/rxq/ram_reg | Implied   | 8 x 8                | RAM32M x 2	 | 
+|u_e203_subsys_peripsi_1/u_sirv_qspi0_top | u_sirv_flash_qspi/fifo/txq/ram_reg | Implied   | 8 x 8                | RAM32M x 2	 | 
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
 ---------------------------------------------------------------------------------
 Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
@@ -1438,19 +1384,87 @@ Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-565] redefining clock 'sys_clk_pin'
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:02:37 ; elapsed = 00:02:40 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:06:22 ; elapsed = 00:06:25 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:02:37 ; elapsed = 00:02:40 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Timing Optimization : Time (s): cpu = 00:06:27 ; elapsed = 00:06:31 . Memory (MB): peak = 2374.621 ; gain = 1234.910
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+Block RAM: Final Mapping	Report
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|Module Name                          | RTL Object                                                                                 | PORT A (Depth x Width) | W | R | PORT B (Depth x Width) | W | R | Ports driving FF | RAMB18 | RAMB36 | 
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+|u_e203_subsys_maini_3/u_e203_cpu_top | u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg | 8 K x 64(READ_FIRST)   | W |   | 8 K x 64(WRITE_FIRST)  |   | R | Port A and B     | 0      | 16     | 
+|u_e203_subsys_maini_3/u_e203_cpu_top | u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg | 16 K x 32(READ_FIRST)  | W |   | 16 K x 32(WRITE_FIRST) |   | R | Port A and B     | 0      | 16     | 
++-------------------------------------+--------------------------------------------------------------------------------------------+------------------------+---+---+------------------------+---+---+------------------+--------+--------+
+
+
+Distributed RAM: Final Mapping	Report
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+|Module Name                              | RTL Object                         | Inference | Size (Depth x Width) | Primitives  | 
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+|u_e203_subsys_peripsi_1/u_sirv_qspi0_top | u_sirv_flash_qspi/fifo/rxq/ram_reg | Implied   | 8 x 8                | RAM32M x 2	 | 
+|u_e203_subsys_peripsi_1/u_sirv_qspi0_top | u_sirv_flash_qspi/fifo/txq/ram_reg | Implied   | 8 x 8                | RAM32M x 2	 | 
++-----------------------------------------+------------------------------------+-----------+----------------------+-------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_rvalid with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_ar_fifo/dp_gt0.vec_31_dfflr/qout_r_reg[0]/Q' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_rvalid with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_rvalid is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_bvalid with 1st driver pin 'u_e203_subsys_maini_3/u_e203_subsys_mems/u_expl_axi_icb2axi/u_sirv_gnrl_axi_buffer/o_axi_wdata_fifo/dp_gt0.vec_31_dfflr/qout_r_reg[0]/Q' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_bvalid with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_bvalid is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_dffs.v:104]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_arready with 1st driver pin 'u_e203_subsys_maini_3/i_15434/O' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_arready with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_arready is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wready with 1st driver pin 'u_e203_subsys_maini_3/i_15435/O' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6859] multi-driven net on pin expl_axi_wready with 2nd driver pin 'GND' [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+CRITICAL WARNING: [Synth 8-6858] multi-driven net expl_axi_wready is connected to at least one constant driver which has been preserved, other driver is ignored [C:/Users/Zhangshi/Desktop/my_git/e203_zs/rtl/e203/general/sirv_gnrl_bufs.v:65]
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_4_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_4_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_5_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_5_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_6_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_6_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_7_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_itcm_ram/u_e203_itcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_7_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_0_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_1_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_2_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_0 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_1 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_2 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
+INFO: [Synth 8-7052] The timing for the instance u_e203_zs/dut/u_e203_subsys_top/u_e203_subsys_main/u_e203_cpu_top/u_e203_srams/u_e203_dtcm_ram/u_e203_dtcm_gnrl_ram/u_sirv_sim_ram/mem[1].non_last.mem_r_reg_3_3 (implemented as a Block RAM) might be sub-optimal as no optional output register could be merged into the ram block. Providing additional output register may help in improving timing.
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:02:37 ; elapsed = 00:02:40 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Technology Mapping : Time (s): cpu = 00:06:38 ; elapsed = 00:06:41 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -1467,39 +1481,38 @@ Start Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
-CRITICAL WARNING: [Synth 8-4442] BlackBox module \u_e203_zs/ip_reset_sys  has unconnected pin dcm_locked
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished IO Insertion : Time (s): cpu = 00:06:42 ; elapsed = 00:06:45 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Renaming Generated Instances : Time (s): cpu = 00:06:42 ; elapsed = 00:06:46 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:06:48 ; elapsed = 00:06:51 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Renaming Generated Ports : Time (s): cpu = 00:06:48 ; elapsed = 00:06:51 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Handling Custom Attributes : Time (s): cpu = 00:06:48 ; elapsed = 00:06:52 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Renaming Generated Nets : Time (s): cpu = 00:06:49 ; elapsed = 00:06:52 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -1519,34 +1532,52 @@ Report Cell Usage:
 +------+----------+------+
 |1     |mmcm      |     1|
 |2     |reset_sys |     1|
-|3     |LUT2      |     1|
-|4     |PULLUP    |     7|
-|5     |IBUF      |     2|
-|6     |IOBUF     |    73|
-|7     |OBUF      |     4|
+|3     |BUFG      |     2|
+|4     |CARRY4    |   393|
+|5     |LUT1      |   304|
+|6     |LUT2      |   947|
+|7     |LUT3      |  1265|
+|8     |LUT4      |  1567|
+|9     |LUT5      |  2473|
+|10    |LUT6      |  6144|
+|11    |MUXF7     |   529|
+|12    |MUXF8     |   119|
+|13    |PULLUP    |     7|
+|14    |RAM32M    |     4|
+|15    |RAMB36E1  |    32|
+|17    |FDCE      |  8083|
+|18    |FDPE      |   410|
+|19    |FDRE      |  2693|
+|20    |FDSE      |    51|
+|21    |LD        |    24|
+|22    |IBUF      |     3|
+|23    |IOBUF     |    73|
+|24    |OBUF      |     4|
 +------+----------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Finished Writing Synthesis Report : Time (s): cpu = 00:06:49 ; elapsed = 00:06:52 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 75 critical warnings and 6 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:02:14 ; elapsed = 00:02:33 . Memory (MB): peak = 1888.660 ; gain = 629.047
-Synthesis Optimization Complete : Time (s): cpu = 00:02:40 ; elapsed = 00:02:43 . Memory (MB): peak = 1888.660 ; gain = 768.379
+Synthesis finished with 0 errors, 12 critical warnings and 6 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:06:22 ; elapsed = 00:06:42 . Memory (MB): peak = 2374.621 ; gain = 1097.016
+Synthesis Optimization Complete : Time (s): cpu = 00:06:49 ; elapsed = 00:06:52 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1888.660 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 73 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.793 . Memory (MB): peak = 2374.621 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1174 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1888.660 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 2374.621 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 73 instances were transformed.
+  A total of 101 instances were transformed.
   IOBUF => IOBUF (IBUF, OBUFT): 73 instances
+  LD => LDCE: 24 instances
+  RAM32M => RAM32M (RAMD32(x6), RAMS32(x2)): 4 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-246 Infos, 117 Warnings, 75 Critical Warnings and 0 Errors encountered.
+281 Infos, 114 Warnings, 12 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:02:46 ; elapsed = 00:02:56 . Memory (MB): peak = 1888.660 ; gain = 768.379
+synth_design: Time (s): cpu = 00:07:02 ; elapsed = 00:07:07 . Memory (MB): peak = 2374.621 ; gain = 1234.910
 INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
 INFO: [Common 17-1381] The checkpoint 'C:/Users/Zhangshi/Desktop/my_git/e203_zs/prj/e203_zs/e203_zs.runs/synth_1/system_top.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file system_top_utilization_synth.rpt -pb system_top_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Jan 21 11:26:36 2025...
+INFO: [Common 17-206] Exiting Vivado at Thu Jan 23 01:29:43 2025...
