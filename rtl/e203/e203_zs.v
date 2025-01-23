@@ -1,4 +1,3 @@
-`timescale 1ns/1ps
 `include "e203_defines.v"
 //不包含时钟和复位ipip
 module e203_zs

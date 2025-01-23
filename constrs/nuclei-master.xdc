@@ -1,3 +1,10 @@
+#####               config              #####
+set_property -dict [list \
+  CONFIG_VOLTAGE {3.3} \
+  CFGBVS {VCCO} \
+  BITSTREAM.CONFIG.SPI_BUSWIDTH {4} \
+  ] [current_design]
+
 set_property CFGBVS VCCO [current_design]
 set_property CONFIG_VOLTAGE 3.3 [current_design]
 
@@ -12,9 +19,9 @@ set_property -dict { PACKAGE_PIN Y18    IOSTANDARD LVCMOS33 } [get_ports { CLK32
 create_clock -add -name sys_clk_pin -period 30517.58 -waveform {0 15258.79} [get_ports {CLK32768KHZ}];
 
 
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets dut_io_pads_jtag_TCK_i_ival]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets IOBUF_jtag_TCK/O]
-
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets u_e203_zs/dut_io_pads_jtag_TCK_i_ival]
+set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets u_e203_zs/IOBUF_jtag_TCK/O]
+#此处有别于源代码 要做修改，因为该网络不在顶层
 
 #####            rst define           #####
 
